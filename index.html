@@ -7,12 +7,58 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
   <meta name="author" content="">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="icon" href="./images/favicon.svg">
   <title>Lubimovka</title>
 </head>
 
-<body>
+<body class="page">
+  <section class="feedback page__section page__section_place_feedback" aria-label="Блок с отзывами зрителей">
+    <div class="feedback__header">
+      <h1 class="feedback__title">Отзывы зрителей</h1>
+      <button class="feedback__prev-button swiper-button-prev"></button>
+      <button class="feedback__next-button swiper-button-next"></button>
+      <div class="feedback__pagination swiper-pagination"></div>
+    </div>
+    <!-- Главный контейнер слайдера -->
+    <div class="feedback__slider swiper">
+      <!-- Обязательная оболочка -->
+      <div class="feedback__slider-wrapper swiper-wrapper">
+        <!-- Слайд -->
+        <div class="feedback__slide swiper-slide">
+          <!-- Контент внутри слайда -->
+          <div class="feedback__content">
+            <p class="feedback__text">
+              Что-то похожее на&nbsp;эффект от&nbsp;мультфильмов типа &laquo;Сауз Парк&raquo; или про коня Боджэка
+              возникает&nbsp;&mdash; я&nbsp;думаю, и&nbsp;пьеса написана с&nbsp;этой интонацией американских взрослых
+              мультсериалов. И&nbsp;как хорошо все это с&nbsp;куклой-носочком. Так все чисто сделано!
+            </p>
+          </div>
+        </div>
+        <div class="feedback__slide swiper-slide">
+          <!-- Контент внутри слайда -->
+          <div class="feedback__content">
+            <p class="feedback__text">
+              Для самой этой истории формат читки работает отличным ироническим отстранением
+            </p>
+          </div>
+        </div>
+        <div class="feedback__slide swiper-slide">
+          <!-- Контент внутри слайда -->
+          <div class="feedback__content">
+            <p class="feedback__text">
+              Мне данный формат дал возможность самой выбирать, как двигается персонаж, что на&nbsp;нем надето, какую
+              машину он&nbsp;водит, и&nbsp;что за&nbsp;плакат висит в&nbsp;подвале церкви. Это было приятно, ведь
+              я&nbsp;как будто сама поучаствовала в&nbsp;спектакле
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./scripts/script.js"></script>
 </body>
 
 </html>

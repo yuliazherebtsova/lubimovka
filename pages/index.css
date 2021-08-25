@@ -1,3 +1,16 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 /* vendor */
+
+@import url('../blocks/page/page.css');
+@import url('../blocks/page/__section/page__section.css');
+@import url('../blocks/page/__section/_place/page__section_place_feedback.css');
+/* page */
+
+@import url('../blocks/feedback/feedback.css');
+@import url('../blocks/feedback/__title/feedback__title.css');
+@import url('../blocks/feedback/__slider/feedback__slider.css');
+@import url('../blocks/feedback/__prev-button/feedback__prev-button.css');
+@import url('../blocks/feedback/__next-button/feedback__next-button.css');
+@import url('../blocks/feedback/__pagination/feedback__pagination.css');
+/* feedback */
