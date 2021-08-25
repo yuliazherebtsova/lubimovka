@@ -6,4 +6,5 @@
   background-color: #ecebe8;
   height: 62px;
   border-bottom: 1px solid #232323;
+  box-sizing: border-box;
 }
