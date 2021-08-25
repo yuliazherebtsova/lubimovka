@@ -1,0 +1,10 @@
+.footer__text {
+  margin: 0;
+  max-width: 145px;
+  font-family: 'FormularLight';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 121%;
+  color: #242424;
+}

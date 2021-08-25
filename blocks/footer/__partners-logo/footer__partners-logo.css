@@ -1,0 +1,7 @@
+.footer__partners-logo { 
+  max-height: 34px;
+  padding-right: 31px;
+}
+.footer__partners-logo:last-child {
+  padding-right: 31px;
+}
