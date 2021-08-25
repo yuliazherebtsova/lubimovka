@@ -1,0 +1,6 @@
+.header__support-container{
+  width: 127px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
