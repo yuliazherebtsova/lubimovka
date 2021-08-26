@@ -11,6 +11,6 @@
   border: none;
 }
 
-.swiper-button-next::after {
+.swiper-button-next:after {
   display: none;
 }

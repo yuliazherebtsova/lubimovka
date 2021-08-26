@@ -1,3 +1,16 @@
 .feedback__prev-button {
-  position: relative;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  min-width: 50px;
+  min-height: 50px;
+  background-image: url('../../../images/feedback-slider-arrow-prev.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  border: none;
+}
+
+.swiper-button-prev:after {
+  display: none;
 }
