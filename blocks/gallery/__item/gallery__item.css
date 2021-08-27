@@ -1,4 +1,4 @@
 .gallery__item {
-  display: block;
-  max-height: 251px;
+  display: flex;
 }
+

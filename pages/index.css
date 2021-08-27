@@ -16,6 +16,9 @@
 @import url(../blocks/links/links.css);
 @import url(../blocks/links/__image/links__image.css);
 @import url(../blocks/links/__subtitle/links__subtitle.css);
+@import url(../blocks/links/__buttons/links__buttons.css);
+@import url(../blocks/links/__link/links__link.css);
+@import url(../blocks/links/__arrow/links__arrow.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);

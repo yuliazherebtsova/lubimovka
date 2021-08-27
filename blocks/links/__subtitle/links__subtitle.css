@@ -9,3 +9,11 @@
   letter-spacing: -0.01em;
   color: #242424;
 }
+
+@media (max-width: 768px) {
+  .links__subtitle {
+    max-width: 363px;
+    margin: 0 0 0 26px;
+  padding: 24px 0 0 0;
+  }
+}
