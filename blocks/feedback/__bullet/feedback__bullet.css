@@ -1,0 +1,16 @@
+.feedback__bullet {
+  display: inline-block;
+  margin-right: 16px;
+  width: 6px;
+  height: 6px;
+  border: 1px solid #242424;
+  border-radius: 50%;
+  background-color: transparent;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.feedback__bullet:last-child {
+  margin-right: 0;
+}
+

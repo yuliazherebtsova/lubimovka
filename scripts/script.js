@@ -14,11 +14,16 @@
 * 7. Сделать одну кнопку стрелок с друмя модификаторами
 
 */
-// Инициализируем Swiper
 
-const swiper = new Swiper('.swiper', {
+// Инициализируем Swiper
+const swiperFeedback = new Swiper('.feedback__slider', {
+  wrapperClass: 'feedback__wrapper',
+  slideClass: 'feedback__slide',
+  slideActiveClass: 'feedback__slide_type_active',
+  //slideVisibleClass: 'feedback__slide_type_visible',
+
   // Отступ между слайдами
-  spaceBetween: 30,
+  spaceBetween: 50,
 
   // Кол-во отображаемых слайдов
   slidesPerView: 2,
@@ -40,10 +45,15 @@ const swiper = new Swiper('.swiper', {
   // },
 
   // Скорость переключения
-  speed: 800,
+  speed: 1000,
 
   // Активный слайд по центру
   centeredSlides: true,
+
+
+  initialSlide: 1,
+  slideToClickedSlide: true,
+  watchSlidesVisibility: true,
 
   // Эффекты переключения слайдов
   // // смена прозрачности
@@ -54,26 +64,25 @@ const swiper = new Swiper('.swiper', {
   //   crossFade: true
   // },
 
-  effect: 'coverflow',
-  coverflowEffect: {
-    depth: 0,
-    rotate: 0,
-    slideShadows: true,
-  },
-
   // Стрелки
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev'
+    nextEl: '.feedback__next-button',
+    prevEl: '.feedback__prev-button'
   },
 
   // Навигация
   // Буллеты, текущее положение
   pagination: {
-    el: '.swiper-pagination',
+    el: '.feedback__pagination',
+    bulletClass: 'feedback__bullet',
+    bulletActiveClass: 'feedback__bullet_type_active',
     // Буллеты
-    clickable: true
+    clickable: true,
+    // dynamicBullets: true,
+    // dynamicMainBullets: 4,
   },
+
+
 
   // Включение / отключение перетаскивания на десктопе
   simulateTouch: true,
@@ -105,5 +114,9 @@ const swiper = new Swiper('.swiper', {
     922: {
       slidedPerView: 3,
     }
-  }
+  },
+
+  lazyLoading: true,
+
+  slideToClickedSlide: true
 });

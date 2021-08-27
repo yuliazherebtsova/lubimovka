@@ -1,16 +1,12 @@
 .feedback__next-button {
-  position: absolute;
-  top: 50px;
-  right: 50px;
+  margin: 0;
+  padding: 0;
+  align-self: flex-end;
   min-width: 50px;
   min-height: 50px;
   background-image: url('../../../images/feedback-slider-arrow-next.svg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-color: transparent;
   border: none;
-}
-
-.swiper-button-next:after {
-  display: none;
 }

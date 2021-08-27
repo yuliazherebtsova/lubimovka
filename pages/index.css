@@ -8,9 +8,18 @@
 /* page */
 
 @import url('../blocks/feedback/feedback.css');
+@import url('../blocks/feedback/__header/feedback__header.css');
 @import url('../blocks/feedback/__title/feedback__title.css');
-@import url('../blocks/feedback/__slider/feedback__slider.css');
+@import url('../blocks/feedback/__pagination/feedback__pagination.css');
+@import url('../blocks/feedback/__bullet/feedback__bullet.css');
+@import url('../blocks/feedback/__bullet/_type/feedback__bullet_type_active.css');
 @import url('../blocks/feedback/__prev-button/feedback__prev-button.css');
 @import url('../blocks/feedback/__next-button/feedback__next-button.css');
-@import url('../blocks/feedback/__pagination/feedback__pagination.css');
+@import url('../blocks/feedback/__slider/feedback__slider.css');
+@import url('../blocks/feedback/__wrapper/feedback__wrapper.css');
+@import url('../blocks/feedback/__slide/feedback__slide.css');
+@import url('../blocks/feedback/__slide/_type/feedback__slide_type_active.css');
+@import url('../blocks/feedback/__slide/_type/feedback__slide_type_visible.css');
+@import url('../blocks/feedback/__card/feedback__card.css');
+@import url('../blocks/feedback/__text/feedback__text.css');
 /* feedback */

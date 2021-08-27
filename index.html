@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
   <meta name="author" content="">
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="/node_modules/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="icon" href="./images/favicon.svg">
   <title>Lubimovka</title>
@@ -16,19 +16,60 @@
 <body class="page">
   <section class="feedback page__section page__section_place_feedback" aria-label="Блок с отзывами зрителей">
     <div class="feedback__header">
-      <h1 class="feedback__title">Отзывы зрителей</h1>
-      <button class="feedback__prev-button swiper-button-prev"></button>
-      <button class="feedback__next-button swiper-button-next"></button>
-      <div class="feedback__pagination swiper-pagination"></div>
+      <h2 class="feedback__title">Рецензии</h2>
+      <div class="feedback__pagination"></div>
+      <button class="feedback__prev-button"></button>
+      <button class="feedback__next-button"></button>
     </div>
     <!-- Главный контейнер слайдера -->
-    <div class="feedback__slider swiper">
+    <div class="feedback__slider">
       <!-- Обязательная оболочка -->
-      <div class="feedback__slider-wrapper swiper-wrapper">
+      <div class="feedback__wrapper">
         <!-- Слайд -->
-        <div class="feedback__slide swiper-slide">
+        <div class="feedback__slide">
           <!-- Контент внутри слайда -->
-          <div class="feedback__content">
+          <div class="feedback__card">
+            <p class="feedback__text">
+              1. Что-то похожее на&nbsp;эффект от&nbsp;мультфильмов типа &laquo;Сауз Парк&raquo; или про коня Боджэка
+              возникает&nbsp;&mdash; я&nbsp;думаю, и&nbsp;пьеса написана с&nbsp;этой интонацией американских взрослых
+              мультсериалов. И&nbsp;как хорошо все это с&nbsp;куклой-носочком. Так все чисто сделано!
+            </p>
+          </div>
+        </div>
+        <div class="feedback__slide">
+          <!-- Контент внутри слайда -->
+          <div class="feedback__card">
+            <p class="feedback__text">
+              &laquo;Действие пьесы &bdquo;Длань Господня&ldquo; разворачивается в&nbsp;подвале провинциальной церкви
+              в&nbsp;Техасе, где мать главного героя с&nbsp;группой добровольцев готовит кукольное представление.
+              Ей&nbsp;отчаянно нужна эта
+              работа, еёмуж недавно умер, оставив её&nbsp;с&nbsp;сыном-подростком в&nbsp;эмоциональной и&nbsp;финансовой
+              яме. И&nbsp;вот жуткая тварь захватывает контроль над левой рукой её&nbsp;беспокойного Джейсона
+              и&nbsp;принимается терроризировать его
+              и&nbsp;всех вокруг. По&nbsp;мере накала страстей окружающие начинают подозревать, что рука одержима самим
+              дьяволом, и пастор Грег предлагает прибегнуть к&nbsp;экзорцизму. Однако &bdquo;Длань
+              Господня&ldquo;&nbsp;&mdash; это
+              не&nbsp;ужастик, по&nbsp;крайней мере,
+              природа зла тут вовсе не&nbsp;сверхъестественная. Чёрная комедия Аскинса о&nbsp;разделённой надвое душе
+              человека ненавязчиво обнажает глубинные импульсы&nbsp;&mdash; сексуальные, саморазрушительные,
+              агрессивные&nbsp;&mdash; которые
+              притаились в&nbsp;каждом из&nbsp;нас&raquo;.
+            </p>
+          </div>
+        </div>
+        <div class="feedback__slide">
+          <!-- Контент внутри слайда -->
+          <div class="feedback__card">
+            <p class="feedback__text">
+              3. Мне данный формат дал возможность самой выбирать, как двигается персонаж, что на&nbsp;нем надето, какую
+              машину он&nbsp;водит, и&nbsp;что за&nbsp;плакат висит в&nbsp;подвале церкви. Это было приятно, ведь
+              я&nbsp;как будто сама поучаствовала в&nbsp;спектакле
+            </p>
+          </div>
+        </div>
+        <div class="feedback__slide">
+          <!-- Контент внутри слайда -->
+          <div class="feedback__card">
             <p class="feedback__text">
               Что-то похожее на&nbsp;эффект от&nbsp;мультфильмов типа &laquo;Сауз Парк&raquo; или про коня Боджэка
               возникает&nbsp;&mdash; я&nbsp;думаю, и&nbsp;пьеса написана с&nbsp;этой интонацией американских взрослых
@@ -36,17 +77,25 @@
             </p>
           </div>
         </div>
-        <div class="feedback__slide swiper-slide">
+        <div class="feedback__slide">
           <!-- Контент внутри слайда -->
-          <div class="feedback__content">
+          <div class="feedback__card">
             <p class="feedback__text">
               Для самой этой истории формат читки работает отличным ироническим отстранением
             </p>
           </div>
         </div>
-        <div class="feedback__slide swiper-slide">
+        <div class="feedback__slide">
           <!-- Контент внутри слайда -->
-          <div class="feedback__content">
+          <div class="feedback__card">
+            <p class="feedback__text">
+              Для самой этой истории формат читки работает отличным ироническим отстранением
+            </p>
+          </div>
+        </div>
+        <div class="feedback__slide">
+          <!-- Контент внутри слайда -->
+          <div class="feedback__card">
             <p class="feedback__text">
               Мне данный формат дал возможность самой выбирать, как двигается персонаж, что на&nbsp;нем надето, какую
               машину он&nbsp;водит, и&nbsp;что за&nbsp;плакат висит в&nbsp;подвале церкви. Это было приятно, ведь
@@ -57,7 +106,7 @@
       </div>
     </div>
   </section>
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="/node_modules/swiper/swiper-bundle.min.js"></script>
   <script src="./scripts/script.js"></script>
 </body>
 
