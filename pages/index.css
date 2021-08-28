@@ -4,7 +4,7 @@
 /* page */
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__section/page__section.css);
-@import url(../blocks/page/__section/_place/page__section_place_links.css);
+@import url(../blocks/page/__section/_place/page__section_place_photo.css);
 @import url(../blocks/page/__section/_place/page__section_place_footer.css);
 /* gallery */
 @import url(../blocks/gallery/gallery.css);
@@ -12,6 +12,9 @@
 @import url(../blocks/gallery/__items/gallery__items.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
+/* photo */
+@import url(../blocks/photo/photo.css);
+@import url(../blocks/photo/__image/photo__image.css);
 /* links */
 @import url(../blocks/links/links.css);
 @import url(../blocks/links/__image/links__image.css);
