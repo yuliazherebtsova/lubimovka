@@ -1,8 +1,5 @@
 .feedback__slide {
-  margin: 0;
-  padding: 0;
-  flex-shrink: 0;
-  transition: .25s;
-  opacity: 0.4;
+  opacity: 1;
+  min-height: 360px;
 }
 

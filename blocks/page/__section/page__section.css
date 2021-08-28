@@ -1,5 +1,5 @@
 .page__section {
-  max-width: 1440px; /* ширина по макету с учетом padding по бокам 48+48, а затем обернули в border-box*/
+  max-width: 1440px;
   margin: 0 auto;
 }
 

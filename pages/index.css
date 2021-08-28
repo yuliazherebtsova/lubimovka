@@ -1,25 +1,40 @@
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts/fonts.css);
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
 /* vendor */
 
 @import url('../blocks/page/page.css');
 @import url('../blocks/page/__section/page__section.css');
 @import url('../blocks/page/__section/_place/page__section_place_feedback.css');
+@import url('../blocks/page/__section/_place/page__section_place_reviews.css');
 /* page */
 
+@import url('../blocks/card/card.css');
+@import url('../blocks/card/__text/card__text.css');
+@import url('../blocks/card/__image/card__image.css');
+@import url('../blocks/card/__author/card__author.css');
+@import url('../blocks/card/__readmore/card_readmore.css');
+/* card */
+
+@import url('../blocks/slider/slider.css');
+@import url('../blocks/slider/__header/slider__header.css');
+@import url('../blocks/slider/__title/slider__title.css');
+@import url('../blocks/slider/__prev-button/slider__prev-button.css');
+@import url('../blocks/slider/__next-button/slider__next-button.css');
+@import url('../blocks//slider/__pagination/slider__pagination.css');
+@import url('../blocks/slider/__bullet/slider__bullet.css');
+@import url('../blocks/slider/__bullet/_type/slider__bullet_type_active.css');
+@import url('../blocks/slider/__container/slider__container.css');
+@import url('../blocks/slider/__wrapper/slider__wrapper.css');
+@import url('../blocks/slider/__slide/slider__slide.css');
+@import url('../blocks/slider/__slide/_type/slider__slide_type_active.css');
+/* slider */
+
+@import url('../blocks/reviews/reviews.css');
+@import url('../blocks/reviews/__card/reviews__card.css');
+/* reviews */
+
 @import url('../blocks/feedback/feedback.css');
-@import url('../blocks/feedback/__header/feedback__header.css');
-@import url('../blocks/feedback/__title/feedback__title.css');
-@import url('../blocks/feedback/__pagination/feedback__pagination.css');
-@import url('../blocks/feedback/__bullet/feedback__bullet.css');
-@import url('../blocks/feedback/__bullet/_type/feedback__bullet_type_active.css');
-@import url('../blocks/feedback/__prev-button/feedback__prev-button.css');
-@import url('../blocks/feedback/__next-button/feedback__next-button.css');
-@import url('../blocks/feedback/__slider/feedback__slider.css');
-@import url('../blocks/feedback/__wrapper/feedback__wrapper.css');
-@import url('../blocks/feedback/__slide/feedback__slide.css');
-@import url('../blocks/feedback/__slide/_type/feedback__slide_type_active.css');
-@import url('../blocks/feedback/__slide/_type/feedback__slide_type_visible.css');
 @import url('../blocks/feedback/__card/feedback__card.css');
-@import url('../blocks/feedback/__text/feedback__text.css');
+@import url('../blocks/feedback/__header/feeback__header.css');
+@import url('../blocks/feedback/__slide/feedback__slide.css');
 /* feedback */

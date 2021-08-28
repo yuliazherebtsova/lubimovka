@@ -1,9 +1,9 @@
 .feedback__card {
-  margin: 0;
-  padding: 55px 90px 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 33px 30px 24px;
   box-sizing: border-box;
   min-width: 100%;
-  transition: box-shadow 0.25s;
-  transition-timing-function: ease-in-out;
-  background-color: #fff;
+  min-height: 100%;
 }

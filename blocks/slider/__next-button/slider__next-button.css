@@ -1,0 +1,12 @@
+.slider__next-button {
+  margin: 0;
+  padding: 0;
+  align-self: flex-end;
+  min-width: 50px;
+  min-height: 50px;
+  background-image: url('../../../images/feedback-slider-arrow-next.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+}

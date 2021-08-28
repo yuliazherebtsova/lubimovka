@@ -7,106 +7,122 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
   <meta name="author" content="">
-  <link rel="stylesheet" href="/node_modules/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="icon" href="./images/favicon.svg">
   <title>Lubimovka</title>
 </head>
 
 <body class="page">
-  <section class="feedback page__section page__section_place_feedback" aria-label="Блок с отзывами зрителей">
-    <div class="feedback__header">
-      <h2 class="feedback__title">Рецензии</h2>
-      <div class="feedback__pagination"></div>
-      <button class="feedback__prev-button"></button>
-      <button class="feedback__next-button"></button>
+  <section class="reviews slider page__section page__section_place_reviews" aria-label="Блок с рецензиями в СМИ">
+    <div class="slider__header">
+      <h2 class="slider__title">Рецензии</h2>
+      <div class="reviews__pagination slider__pagination"></div>
+      <button class="reviews__prev-button slider__prev-button"></button>
+      <button class="reviews__next-button slider__next-button"></button>
     </div>
     <!-- Главный контейнер слайдера -->
-    <div class="feedback__slider">
+    <div class="reviews__container slider__container">
       <!-- Обязательная оболочка -->
-      <div class="feedback__wrapper">
+      <div class="reviews__wrapper slider__wrapper">
         <!-- Слайд -->
-        <div class="feedback__slide">
+        <div class="reviews__slide slider__slide">
           <!-- Контент внутри слайда -->
-          <div class="feedback__card">
-            <p class="feedback__text">
+          <div class="reviews__card card">
+            <img class="card__logo" src="/images/feedback-slider-logo-1.svg" alt="">
+            <p class="card__text">
               1. Что-то похожее на&nbsp;эффект от&nbsp;мультфильмов типа &laquo;Сауз Парк&raquo; или про коня Боджэка
               возникает&nbsp;&mdash; я&nbsp;думаю, и&nbsp;пьеса написана с&nbsp;этой интонацией американских взрослых
               мультсериалов. И&nbsp;как хорошо все это с&nbsp;куклой-носочком. Так все чисто сделано!
             </p>
+            <button class="card__readmore">Читать полностью</button>
           </div>
         </div>
-        <div class="feedback__slide">
+        <div class="reviews__slide slider__slide">
           <!-- Контент внутри слайда -->
-          <div class="feedback__card">
-            <p class="feedback__text">
-              &laquo;Действие пьесы &bdquo;Длань Господня&ldquo; разворачивается в&nbsp;подвале провинциальной церкви
-              в&nbsp;Техасе, где мать главного героя с&nbsp;группой добровольцев готовит кукольное представление.
-              Ей&nbsp;отчаянно нужна эта
-              работа, еёмуж недавно умер, оставив её&nbsp;с&nbsp;сыном-подростком в&nbsp;эмоциональной и&nbsp;финансовой
-              яме. И&nbsp;вот жуткая тварь захватывает контроль над левой рукой её&nbsp;беспокойного Джейсона
-              и&nbsp;принимается терроризировать его
-              и&nbsp;всех вокруг. По&nbsp;мере накала страстей окружающие начинают подозревать, что рука одержима самим
-              дьяволом, и пастор Грег предлагает прибегнуть к&nbsp;экзорцизму. Однако &bdquo;Длань
-              Господня&ldquo;&nbsp;&mdash; это
-              не&nbsp;ужастик, по&nbsp;крайней мере,
-              природа зла тут вовсе не&nbsp;сверхъестественная. Чёрная комедия Аскинса о&nbsp;разделённой надвое душе
-              человека ненавязчиво обнажает глубинные импульсы&nbsp;&mdash; сексуальные, саморазрушительные,
-              агрессивные&nbsp;&mdash; которые
-              притаились в&nbsp;каждом из&nbsp;нас&raquo;.
+          <div class="reviews__card card">
+            <img class="card__logo" src="/images/feedback-slider-logo-1.svg" alt="">
+            <p class="card__text">
+              «Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, где мать
+              главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её
+              муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь
+              захватывает контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех
+              вокруг. По мере накала страстей окружающие начинают подозревать, что рука одержима самим дьяволом, и
+              пастор Грег предлагает прибегнуть к экзорцизму. Однако «Длань Господня» — это не ужастик, по крайней мере,
+              природа зла тут вовсе не сверхъестественная. Чёрная комедия Аскинса о разделённой надвое душе человека
+              ненавязчиво обнажает глубинные импульсы — сексуальные, саморазрушительные, агрессивные — которые
+              притаились в каждом из нас».
             </p>
+            <button class="card__readmore">Читать полностью</button>
           </div>
         </div>
-        <div class="feedback__slide">
+        <div class="reviews__slide slider__slide">
           <!-- Контент внутри слайда -->
-          <div class="feedback__card">
-            <p class="feedback__text">
-              3. Мне данный формат дал возможность самой выбирать, как двигается персонаж, что на&nbsp;нем надето, какую
-              машину он&nbsp;водит, и&nbsp;что за&nbsp;плакат висит в&nbsp;подвале церкви. Это было приятно, ведь
-              я&nbsp;как будто сама поучаствовала в&nbsp;спектакле
+          <div class="reviews__card card">
+            <img class="card__logo" src="/images/feedback-slider-logo-1.svg" alt="">
+            <p class="card__text">
+              1. Что-то похожее на&nbsp;эффект от&nbsp;мультфильмов типа &laquo;Сауз Парк&raquo; или про коня Боджэка
+              возникает&nbsp;&mdash; я&nbsp;думаю, и&nbsp;пьеса написана с&nbsp;этой интонацией американских взрослых
+              мультсериалов. И&nbsp;как хорошо все это с&nbsp;куклой-носочком. Так все чисто сделано!1. Что-то похожее
+              на&nbsp;эффект от&nbsp;мультфильмов типа &laquo;Сауз Парк&raquo; или про коня Боджэка
+              возникает&nbsp;&mdash; я&nbsp;думаю, и&nbsp;пьеса написана с&nbsp;этой интонацией американских взрослых
+              мультсериалов. И&nbsp;как хорошо все это с&nbsp;куклой-носочком. Так все чисто сделано!
             </p>
+            <button class="card__readmore">Читать полностью</button>
           </div>
         </div>
-        <div class="feedback__slide">
+        <div class="reviews__slide slider__slide">
           <!-- Контент внутри слайда -->
-          <div class="feedback__card">
-            <p class="feedback__text">
+          <div class="reviews__card card">
+            <img class="card__logo" src="/images/feedback-slider-logo-1.svg" alt="">
+            <p class="card__text">
+              1. Что-то похожее на&nbsp;эффект от&nbsp;мультфильмов типа &laquo;Сауз Парк&raquo; или про коня Боджэка
+              возникает&nbsp;&mdash; я&nbsp;думаю, и&nbsp;пьеса написана с&nbsp;этой интонацией американских взрослых
+              мультсериалов. И&nbsp;как хорошо все это с&nbsp;куклой-носочком. Так все чисто сделано!
+            </p>
+            <button class="card__readmore">Читать полностью</button>
+          </div>
+        </div>
+        <div class="reviews__slide slider__slide">
+          <!-- Контент внутри слайда -->
+          <div class="reviews__card card">
+            <img class="card__logo" src="/images/feedback-slider-logo-1.svg" alt="">
+            <p class="card__text">
               Что-то похожее на&nbsp;эффект от&nbsp;мультфильмов типа &laquo;Сауз Парк&raquo; или про коня Боджэка
               возникает&nbsp;&mdash; я&nbsp;думаю, и&nbsp;пьеса написана с&nbsp;этой интонацией американских взрослых
               мультсериалов. И&nbsp;как хорошо все это с&nbsp;куклой-носочком. Так все чисто сделано!
             </p>
-          </div>
-        </div>
-        <div class="feedback__slide">
-          <!-- Контент внутри слайда -->
-          <div class="feedback__card">
-            <p class="feedback__text">
-              Для самой этой истории формат читки работает отличным ироническим отстранением
-            </p>
-          </div>
-        </div>
-        <div class="feedback__slide">
-          <!-- Контент внутри слайда -->
-          <div class="feedback__card">
-            <p class="feedback__text">
-              Для самой этой истории формат читки работает отличным ироническим отстранением
-            </p>
-          </div>
-        </div>
-        <div class="feedback__slide">
-          <!-- Контент внутри слайда -->
-          <div class="feedback__card">
-            <p class="feedback__text">
-              Мне данный формат дал возможность самой выбирать, как двигается персонаж, что на&nbsp;нем надето, какую
-              машину он&nbsp;водит, и&nbsp;что за&nbsp;плакат висит в&nbsp;подвале церкви. Это было приятно, ведь
-              я&nbsp;как будто сама поучаствовала в&nbsp;спектакле
-            </p>
+            <button class="card__readmore">Читать полностью</button>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <script src="/node_modules/swiper/swiper-bundle.min.js"></script>
+  <section class="feedback slider page__section page__section_place_feedback" aria-label="Блок с отзывами зрителей">
+    <div class="feedback__header slider__header">
+      <h2 class="slider__title">Отзывы зрителей</h2>
+      <div class="feedback__pagination slider__pagination"></div>
+      <button class="feedback__prev-button slider__prev-button"></button>
+      <button class="feedback__next-button slider__next-button"></button>
+    </div>
+    <!-- Главный контейнер слайдера -->
+    <div class="feedback__container slider__container">
+      <!-- Обязательная оболочка -->
+      <div class="feedback__wrapper slider__wrapper">
+        <!-- Слайд -->
+      </div>
+    </div>
+  </section>
+  <template id="slideFeedback-template">
+    <div class="feedback__slide slider__slide">
+      <div class="feedback__card card">
+        <p class="card__text"></p>
+        <p class="card__author"></p>
+      </div>
+    </div>
+  </template>
+  <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+  <script src="./scripts/initial-cards.js"></script>
   <script src="./scripts/script.js"></script>
 </body>
 
