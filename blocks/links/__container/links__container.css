@@ -1,0 +1,8 @@
+.links__container {
+  margin-right: 8px;
+}
+
+.links__container:last-child {
+  margin-right: 0;
+}
+

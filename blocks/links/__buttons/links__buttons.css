@@ -1,4 +1,7 @@
 .links__buttons {
   display: flex;
-  flex-direction: row;
+  /* position: relative;
+  top: -90px;
+  left: 520px; */
+  margin-top: -90px;
 }
