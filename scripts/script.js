@@ -3,15 +3,13 @@ TODO Чек-лист [V]
 
 * 1. Массив исходных отзывов, подгружаемых из template
 
-* 2. Динамическое количеcтво буллетов
+* 2. Анимация, ховеры: https://codepen.io/spacehaz/pen/VwWLGqo
 
-* 3. Анимация, ховеры: https://codepen.io/spacehaz/pen/VwWLGqo
+* 3. Кнопка "Читать полностью": https://yandex-students.slack.com/archives/C021JDQ27N2/p1630001802024100
 
-* 4. Кнопка "Читать полностью": https://yandex-students.slack.com/archives/C021JDQ27N2/p1630001802024100
+* 4. Моб. верстка (в видео по  Swiper есть)
 
-* 5. Моб. верстка (в видео по  Swiper есть)
-
-* 6. БЭМ + HTML Валидатор
+* 5. БЭМ + HTML Валидатор
 
 */
 
@@ -30,17 +28,14 @@ const swiperReviews = new Swiper('.reviews__container', {
   // Кол-во пролистываемых слайдов
   slidesPerGroup: 1,
 
-  // Листать бесконечно
-  loop: false,
-
-  // Свободный режим прокрутки
-  freeMode: true,
+  // Листать стрелками бесконечно
+  loop: true,
 
   // Автопрокрутка
   // autoplay: {
   //   // Пауза между прокруткой
   //   delay: 3000,
-  //   disableOnIteraction: false
+  //   disableOnIteraction: true
   // },
 
   // Скорость переключения
@@ -49,18 +44,11 @@ const swiperReviews = new Swiper('.reviews__container', {
   // Активный слайд по центру
   centeredSlides: true,
 
+  // Индекс активного слайда
   initialSlide: 0,
-  slideToClickedSlide: true,
-  watchSlidesVisibility: true,
 
-  // Эффекты переключения слайдов
-  // // смена прозрачности
-  // effect: 'fade',
-  // // Дополнение к fade
-  // fadeEffect: {
-  //   // Параллельная смена прозрачности
-  //   crossFade: true
-  // },
+  // Переход по слайдам путем клика на следующий
+  slideToClickedSlide: true,
 
   // Стрелки
   navigation: {
@@ -76,12 +64,12 @@ const swiperReviews = new Swiper('.reviews__container', {
     bulletActiveClass: 'slider__bullet_type_active',
     // Буллеты
     clickable: true,
-    // dynamicBullets: true,
-    // dynamicMainBullets: 4,
+    dynamicBullets: true,
+    dynamicMainBullets: 4,
   },
 
   // Включение / отключение перетаскивания на десктопе
-  simulateTouch: true,
+  simulateTouch: false,
 
   // Чувствительность свайпа
   touchRatio: 1,
@@ -89,17 +77,7 @@ const swiperReviews = new Swiper('.reviews__container', {
   // Угол срабатывания свайпа
   touchAngle: 45,
 
-  // Курсор перетаскивания
-  grabCoursor: true,
-
-  // Навигация по хэшу
-  hashNavigation: {
-    // Отслеживать состояние
-    watchState: true,
-  },
-
   // Брейкпойнты для адаптива
-
   breakpoints: {
     320: {
       slidedPerView: 1,
@@ -111,122 +89,55 @@ const swiperReviews = new Swiper('.reviews__container', {
       slidedPerView: 3,
     }
   },
-
-  lazyLoading: true,
-
-  slideToClickedSlide: true
 });
-
 
 // Инициализируем Swiper для блока Feedback
 const swiperFeedback = new Swiper('.feedback__container', {
   wrapperClass: 'feedback__wrapper',
   slideClass: 'feedback__slide',
-
-  // Отступ между слайдами
   spaceBetween: 30,
-
-  // Кол-во отображаемых слайдов
-  slidesPerView: 3,
-
-  // Кол-во пролистываемых слайдов
+  slidesPerView: 1,
   slidesPerGroup: 1,
-
-  // Активный слайд по центру
   centeredSlides: false,
-
-  // Листать бесконечно
   loop: true,
-
-  // Свободный режим прокрутки
-  freeMode: true,
-
-  // Автопрокрутка
-  // autoplay: {
-  //   // Пауза между прокруткой
-  //   delay: 3000,
-  //   disableOnIteraction: false
-  // },
-
-  // Скорость переключения
   speed: 1000,
-
   initialSlide: 0,
   slideToClickedSlide: true,
-  watchSlidesVisibility: true,
-
-  // Эффекты переключения слайдов
-  // // смена прозрачности
-  // effect: 'fade',
-  // // Дополнение к fade
-  // fadeEffect: {
-  //   // Параллельная смена прозрачности
-  //   crossFade: true
-  // },
-
-  // Стрелки
+  keyboard: true,
   navigation: {
     nextEl: '.feedback__next-button',
     prevEl: '.feedback__prev-button'
   },
-
-  // Навигация
-  // Буллеты, текущее положение
   pagination: {
     el: '.feedback__pagination',
     bulletClass: 'slider__bullet',
     bulletActiveClass: 'slider__bullet_type_active',
-    // Буллеты
     clickable: true,
-    // dynamicBullets: true,
-    // dynamicMainBullets: 4,
+    dynamicBullets: true,
+    dynamicMainBullets: 4,
   },
   watchOverflow: true,
-
-  // Включение / отключение перетаскивания на десктопе
   simulateTouch: true,
-
-  // Чувствительность свайпа
   touchRatio: 1,
-
-  // Угол срабатывания свайпа
   touchAngle: 45,
-
-  // Курсор перетаскивания
-  grabCoursor: true,
-
-  // Навигация по хэшу
-  hashNavigation: {
-    // Отслеживать состояние
-    watchState: true,
-  },
-
-  // Брейкпойнты для адаптива
-
   breakpoints: {
-    320: {
-      slidedPerView: 1,
+    768: {
+      slidesPerView: 2,
+      slidesPerGroup: 2,
     },
-    480: {
-      slidedPerView: 2,
-    },
-    922: {
-      slidedPerView: 3,
+    1440: {
+      slidesPerView: 3,
+      slidesPerGroup: 3,
     }
   },
-
-  lazyLoading: true,
-
   slideToClickedSlide: true,
 });
 
-//const sliderFeedback = document.querySelector('.feedback__wrapper');
-
 function createCard(cardData) {
-  // функция создания карточки
+  // функция создания нового слайда
   const cardTemplate = document.querySelector('#slideFeedback-template').content;
   const cardElement = cardTemplate.querySelector('.feedback__slide').cloneNode(true);
-  // создаем новую карточку по шаблону
+  // создаем слайд в блоке Feedback по шаблону
   cardElement.querySelector('.card__text').textContent = cardData.text;
   cardElement.querySelector('.card__author').textContent = cardData.author;
 
@@ -234,12 +145,12 @@ function createCard(cardData) {
 }
 
 function renderCard(card) {
-  // функция добавления новой карточки в разметку
+  // функция добавления слайда в слайдер
   swiperFeedback.appendSlide(card);
 }
 
 function loadInitialCards(cards) {
-  // функция загрузки начальных карточек на страницу
+  // функция загрузки начальных слайдов из заготовленного массива
   cards.forEach(element => {
     const newCard = createCard(element);
     renderCard(newCard);
@@ -247,5 +158,3 @@ function loadInitialCards(cards) {
 };
 
 loadInitialCards(initialCardsFeedback);
-// при загрузке страницы загружаем карточки из заранее заготовленного массива
-swiperFeedback.slideReset()

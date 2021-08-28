@@ -7,3 +7,10 @@
   min-width: 100%;
   min-height: 100%;
 }
+
+@media screen and (max-width: 1024px) {
+  .feedback__card {
+    padding-top: 72px;
+    padding-bottom: 100px;
+  }
+}
