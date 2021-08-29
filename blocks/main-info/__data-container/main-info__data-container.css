@@ -1,0 +1,17 @@
+.main-info__data-container{
+  align-self: center;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 905px){
+  .main-info__data-container{
+    justify-self: center;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 624px) {
+  .main-info__data-container{
+    margin-bottom: 38px;
+  }
+}
