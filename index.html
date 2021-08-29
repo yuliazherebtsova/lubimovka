@@ -2,10 +2,11 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="keywords" content="">
   <meta name="author" content="">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./pages/index.css">
   <link rel="icon" href="./images/favicon.svg">
   <title>Lubimovka</title>
@@ -41,6 +42,21 @@
         </li>
       </ul>
     </section>
+    <section class="feedback slider page__section page__section_place_feedback" aria-label="Блок с отзывами зрителей">
+    <div class="feedback__header slider__header">
+      <h2 class="slider__title">Отзывы зрителей</h2>
+      <div class="feedback__pagination slider__pagination"></div>
+      <button class="feedback__prev-button slider__prev-button"></button>
+      <button class="feedback__next-button slider__next-button"></button>
+    </div>
+    <!-- Главный контейнер слайдера -->
+    <div class="feedback__container slider__container">
+      <!-- Обязательная оболочка -->
+      <div class="feedback__wrapper slider__wrapper">
+        <!-- Слайд -->
+      </div>
+    </div>
+  </section>
     <section class= "photo page__section page__section_place_photo">
       <img class= "photo__image" src="./images/image__links.png" alt="2 актера">
     </section>
@@ -72,7 +88,6 @@
           </a>
         </div>
       </div>
-      
     </section>
   </main>
  <footer class= "footer page__section page__section_place_footer">
@@ -175,5 +190,16 @@
       </div>
     </div>        
   </footer>
+  <template id="slideFeedback-template">
+    <div class="feedback__slide slider__slide">
+      <div class="feedback__card card">
+        <p class="card__text"></p>
+        <p class="card__author"></p>
+      </div>
+    </div>
+  </template>
+  <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+  <script src="./scripts/initial-cards.js"></script>
+  <script src="./scripts/script.js"></script>
 </body>
 </html>
