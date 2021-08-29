@@ -1,3 +1,12 @@
+/*
+TODO Чек-лист [V]
+
+* 1. Анимация, ховеры: https://codepen.io/spacehaz/pen/VwWLGqo
+
+* 3. БЭМ + HTML Валидатор
+
+*/
+
 const mobileMenu = document.querySelector(".header__mobile");
 const menuBtn = document.querySelector(".header__burger");
 
@@ -131,9 +140,9 @@ function createCardReviews(cardData) {
   cardElement.querySelector('.card__image').src = cardData.image;
   cardElement.querySelector('.card__text').textContent = cardData.text;
 
-  cardElement.querySelector('.card__readmore-button').addEventListener('click', (evt) => {
+  cardElement.querySelector('.card__readmore').addEventListener('click', (evt) => {
     // создаем слушатель на событие нажатия на кнопку "Читать полностью" в карточке
-    console.log('just clicked on the "Read more" button!');
+    console.log('just clicked on the "Read more" link!');
   });
   return cardElement;
 }

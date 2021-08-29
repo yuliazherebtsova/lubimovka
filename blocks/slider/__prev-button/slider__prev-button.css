@@ -1,12 +1,31 @@
 .slider__prev-button {
-  margin: 0 20px 0 20px;
+  margin: 0 20px;
+  /*
   padding: 0;
   align-self: center;
   min-width: 50px;
-  min-height: 50px;
-  background-image: url('../../../images/feedback-slider-arrow-prev.svg');
-  background-repeat: no-repeat;
+  min-height: 50px; */
+  background-image: url('../../../images/arrowleft.svg');
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  border-right: 1px solid #242424;
+  /* background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
-  border: none;
+  border: none; */
+}
+
+.slider__prev-button:after {
+  content: "";
+  background: #242424;
+  display: inline-block;
+  width: 25px;
+  height: 50px;
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  z-index: -1;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  transition: .3s all;
 }

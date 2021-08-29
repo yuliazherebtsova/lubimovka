@@ -1,12 +1,13 @@
 .slider__next-button {
-  margin: 0;
+  /* margin: 0;
   padding: 0;
   align-self: center;
   min-width: 50px;
-  min-height: 50px;
-  background-image: url('../../../images/feedback-slider-arrow-next.svg');
-  background-repeat: no-repeat;
+  min-height: 50px; */
+  background-image: url('../../../images/arrowright.svg');
+  border-left: none;
+  /* background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
-  border: none;
+  border: none; */
 }

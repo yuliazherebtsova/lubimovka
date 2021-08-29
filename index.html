@@ -121,8 +121,10 @@
       <div class="slider__header">
         <h2 class="slider__title">Рецензии</h2>
         <div class="reviews__pagination slider__pagination"></div>
-        <button class="reviews__prev-button slider__prev-button" aria-label="Предыдущий слайд"></button>
-        <button class="reviews__next-button slider__next-button" aria-label="Следующий слайд"></button>
+        <button class="reviews__prev-button slider__prev-button navigation-button" aria-label="Предыдущий слайд">
+        </button>
+        <button class="reviews__next-button slider__next-button navigation-button" aria-label="Следующий слайд">
+        </button>
       </div>
       <!-- Главный контейнер слайдера -->
       <div class="reviews__container slider__container">
@@ -299,14 +301,15 @@
       <div class="reviews__card card">
         <img class="card__image">
         <p class="card__text"></p>
-        <button class="card__readmore-button links__link" type="button" aria-label="Читать полностью">
+        <a class="card__readmore links__link">
           <svg class="links__arrow" width="25" height="25" viewBox="0 0 25 25" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <path class="links__arrow" fill-rule="evenodd" clip-rule="evenodd"
               d="M19.9084 5.05887L19.9084 6.08393L19.9084 14.2844L18.9144 14.2844L18.9144 6.75983L5.41259 20.2616L4.70549 19.5545L18.176 6.08393L10.7491 6.08393L10.7491 5.05887L18.9144 5.05887L19.9084 5.05887Z"
               fill="#242424" />
           </svg>
-          Читать полностью</button>
+          Читать полностью
+        </a>
       </div>
     </div>
   </template>
