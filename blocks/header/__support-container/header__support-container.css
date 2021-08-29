@@ -4,3 +4,15 @@
   align-items: center;
   margin-right: 20px;
 }
+
+@media screen and (max-width: 1025px){
+  .header__support-container{
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__support-container{
+    display: none;
+  }
+}
