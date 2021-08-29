@@ -2,6 +2,13 @@
   max-height: 34px;
   padding-right: 31px;
 }
+
+@media (max-width: 769px) {
+  .footer__partners-logo {    
+    padding-right: 15px;
+  }
+}
+
 .footer__partners-logo:last-child {
-  padding-right: 31px;
+  padding-right: 0;
 }

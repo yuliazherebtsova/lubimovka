@@ -8,3 +8,9 @@
   line-height: 121%;
   color: #242424;
 }
+
+/* @media (max-width: 768px) {
+  .footer__text {    
+    max-width: ;
+  }
+} */

@@ -8,12 +8,15 @@
   border-bottom: 1px solid #242424;
   text-decoration: none;
   color: #242424;
- 
-  transition: .8s ease;  
+  background: transparent; 
+  background: linear-gradient(to left, transparent 50%, #242424 50%) right;
+  background-size: 200%;
+  transition: .8s ;
+  
 }
 
 .links__link:hover, .links__link:hover .links__text, .links__link:hover .links__arrow   {
-  
+  background-position: left;
   color: #ECEBE8;
   fill: #ECEBE8;
     

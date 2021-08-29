@@ -17,7 +17,6 @@
 @import url(../blocks/photo/__image/photo__image.css);
 /* links */
 @import url(../blocks/links/links.css);
-@import url(../blocks/links/__image/links__image.css);
 @import url(../blocks/links/__subtitle/links__subtitle.css);
 @import url(../blocks/links/__buttons/links__buttons.css);
 @import url(../blocks/links/__link/links__link.css);
@@ -35,4 +34,14 @@
 @import url(../blocks/footer/__address/footer__address.css);
 @import url(../blocks/footer/__address-first/footer__address-first.css);
 @import url(../blocks/footer/__address-second/footer__address-second.css);
+@import url(../blocks/footer/__logo-image/footer__logo-image.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__nav-links/footer__nav-links.css);
+@import url(../blocks/footer/__list-item/footer__list-item.css);
+@import url(../blocks/footer/__nav-link/footer__nav-link.css);
+@import url(../blocks/footer/__coopyrights/footer__coopyrights.css);
+@import url(../blocks/footer/__coopyright/footer__coopyright.css);
+@import url(../blocks/footer/__shishki-logo/footer__shishki-logo.css);
+
 
