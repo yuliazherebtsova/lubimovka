@@ -1,0 +1,36 @@
+.main-info__project-button{
+  width: 120px;
+  height: 32px;
+  margin: 32px 30px 28px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 14px;
+  font-style: normal;
+  font-family: 'FornularLight';
+  border: none;
+  border-right: 1px solid #232323;
+  border-bottom: 1px solid #232323;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0;
+  padding-left: 10px;
+  background-color: transparent;
+}
+.main-info__project-button:hover{
+  background-color: #232323;
+  color: #fff;
+  transition: ease-in 1s;
+}
+
+.main-info__project-button:hover .main-info__arrow-left{
+  fill: #fff;
+  transition: ease-in 1s;
+}
+@media screen and (max-width: 624px) {
+  .main-info__project-button{
+    margin: 32px 30px 22px;
+  }
+}
