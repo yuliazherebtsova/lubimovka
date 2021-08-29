@@ -1,0 +1,10 @@
+.feedback__slide {
+  opacity: 1;
+  min-height: 360px;
+}
+
+@media screen and (max-width: 768px) {
+  .feedback__slide {
+    min-height: 476px;
+  }
+}
