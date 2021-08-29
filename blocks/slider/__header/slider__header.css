@@ -9,6 +9,7 @@
 @media screen and (max-width: 768px) {
   .slider__header {
     padding: 0 24px;
+    margin-bottom: 30px;
     position: relative;
   }
 }

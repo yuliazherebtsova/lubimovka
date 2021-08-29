@@ -4,3 +4,9 @@
   box-sizing: border-box;
   padding-top: 150px;
 }
+
+@media screen and (max-width: 1024px) {
+  .page__section_place_reviews {
+    padding-top: 105px;
+  }
+}

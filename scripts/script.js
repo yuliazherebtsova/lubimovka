@@ -1,15 +1,11 @@
 /*
 TODO Чек-лист [V]
 
-* 1. Массив исходных отзывов, подгружаемых из template
+* 1. Анимация, ховеры: https://codepen.io/spacehaz/pen/VwWLGqo
 
-* 2. Анимация, ховеры: https://codepen.io/spacehaz/pen/VwWLGqo
+* 2. Кнопка "Читать полностью": https://yandex-students.slack.com/archives/C021JDQ27N2/p1630001802024100
 
-* 3. Кнопка "Читать полностью": https://yandex-students.slack.com/archives/C021JDQ27N2/p1630001802024100
-
-* 4. Моб. верстка (в видео по  Swiper есть)
-
-* 5. БЭМ + HTML Валидатор
+* 4. БЭМ + HTML Валидатор
 
 */
 
@@ -23,7 +19,7 @@ const swiperReviews = new Swiper('.reviews__container', {
   spaceBetween: 50,
 
   // Кол-во отображаемых слайдов
-  slidesPerView: 2,
+  slidesPerView: 1,
 
   // Кол-во пролистываемых слайдов
   slidesPerGroup: 1,
@@ -47,9 +43,6 @@ const swiperReviews = new Swiper('.reviews__container', {
   // Индекс активного слайда
   initialSlide: 0,
 
-  // Переход по слайдам путем клика на следующий
-  slideToClickedSlide: true,
-
   // Стрелки
   navigation: {
     nextEl: '.reviews__next-button',
@@ -64,12 +57,15 @@ const swiperReviews = new Swiper('.reviews__container', {
     bulletActiveClass: 'slider__bullet_type_active',
     // Буллеты
     clickable: true,
-    dynamicBullets: true,
-    dynamicMainBullets: 4,
+    dynamicBullets: false,
   },
 
+  // Переход по слайдам путем клика на следующий
+  slideToClickedSlide: true,
+
   // Включение / отключение перетаскивания на десктопе
-  simulateTouch: false,
+  // (также включается возможность переключиться на другой слайд по клику на него)
+  simulateTouch: true,
 
   // Чувствительность свайпа
   touchRatio: 1,
@@ -79,14 +75,13 @@ const swiperReviews = new Swiper('.reviews__container', {
 
   // Брейкпойнты для адаптива
   breakpoints: {
-    320: {
-      slidedPerView: 1,
+    1024: {
+      slidesPerView: 2,
+      slidesPerGroup: 1,
     },
-    480: {
-      slidedPerView: 2,
-    },
-    922: {
-      slidedPerView: 3,
+    1440: {
+      slidesPerView: 2,
+      slidesPerGroup: 1,
     }
   },
 });
@@ -130,11 +125,25 @@ const swiperFeedback = new Swiper('.feedback__container', {
       slidesPerGroup: 3,
     }
   },
-  slideToClickedSlide: true,
 });
 
-function createCard(cardData) {
-  // функция создания нового слайда
+function createCardReviews(cardData) {
+  // функция создания нового слайда в блоке Feeback
+  const cardTemplate = document.querySelector('#slideReviews-template').content;
+  const cardElement = cardTemplate.querySelector('.reviews__slide').cloneNode(true);
+  // создаем слайд в блоке Reviews по шаблону
+  cardElement.querySelector('.card__image').src = cardData.image;
+  cardElement.querySelector('.card__text').textContent = cardData.text;
+
+  cardElement.querySelector('.card__readmore-button').addEventListener('click', (evt) => {
+    // создаем слушатель на событие нажатия на кнопку "Читать полностью" в карточке
+    console.log('just clicked on the "Read more" button!');
+  });
+  return cardElement;
+}
+
+function createCardFeedback(cardData) {
+  // функция создания нового слайда в блоке Feeback
   const cardTemplate = document.querySelector('#slideFeedback-template').content;
   const cardElement = cardTemplate.querySelector('.feedback__slide').cloneNode(true);
   // создаем слайд в блоке Feedback по шаблону
@@ -144,17 +153,28 @@ function createCard(cardData) {
   return cardElement;
 }
 
-function renderCard(card) {
+function renderCard(slider, card) {
   // функция добавления слайда в слайдер
-  swiperFeedback.appendSlide(card);
+  slider.appendSlide(card);
 }
 
-function loadInitialCards(cards) {
+function loadInitialCardsReviews(cards) {
   // функция загрузки начальных слайдов из заготовленного массива
   cards.forEach(element => {
-    const newCard = createCard(element);
-    renderCard(newCard);
+    const newCard = createCardReviews(element);
+    renderCard(swiperReviews, newCard);
   });
 };
 
-loadInitialCards(initialCardsFeedback);
+function loadInitialCardsFeedback(cards) {
+  // функция загрузки начальных слайдов из заготовленного массива
+  cards.forEach(element => {
+    const newCard = createCardFeedback(element);
+    renderCard(swiperFeedback, newCard);
+  });
+};
+
+loadInitialCardsFeedback(initialCardsFeedback);
+loadInitialCardsReviews(initialCardsReviews);
+swiperFeedback.slideNext(0); // Начинать с первого слайда после загрузки из массива
+swiperReviews.slideTo(2);

@@ -12,7 +12,7 @@
 @import url('../blocks/card/__text/card__text.css');
 @import url('../blocks/card/__image/card__image.css');
 @import url('../blocks/card/__author/card__author.css');
-@import url('../blocks/card/__readmore/card_readmore.css');
+@import url('../blocks/card/__readmore-button/card__readmore-button.css');
 /* card */
 
 @import url('../blocks/slider/slider.css');
