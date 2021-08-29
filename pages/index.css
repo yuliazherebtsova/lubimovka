@@ -9,7 +9,7 @@
 @import url(../blocks/page/__section/_place/page__section_place_gallery.css);
 @import url('../blocks/page/__section/_place/page__section_place_photo.css');
 @import url('../blocks/page/__section/_place/page__section_place_footer.css');
-@import url(../blocks/page/__section/_type/page__section_type_side.css);
+@import url('../blocks/page/__section/_place/page__section_place_side.css');
 /* page */
 
 @import url(../blocks/header/header.css);
@@ -19,8 +19,6 @@
 @import url(../blocks/header/__social/header__social.css);
 @import url(../blocks/header/__social-link/header__social-link.css);
 @import url(../blocks/header/__plus/header__plus.css);
-@import url(../blocks/header/__support-link/header__support-link.css);
-@import url(../blocks/header/__support-container/header__support-container.css);
 @import url(../blocks/header/__mobile/header__mobile.css);
 @import url(../blocks/header/__mobile/_active/header__mobile_active.css);
 @import url(../blocks/header/__layout/header__layout.css);
@@ -40,6 +38,7 @@
 @import url(../blocks/main-info/__title/main-info__title.css);
 @import url(../blocks/main-info/__data-container/main-info__data-container.css);
 @import url(../blocks/main-info/__arrow-left/main-info__arrow-left.css);
+@import url(../blocks/main-info/__arrow-right/main-info__arrow-right.css);
 /* main-info */
 
 @import url(../blocks/gallery/gallery.css);
