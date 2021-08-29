@@ -10,3 +10,10 @@
     grid-row: 4;
   }
 }
+
+@media screen and (max-width: 450px){
+  .main-info__poster{
+    height: 450px;
+    object-fit: cover;
+  }
+}
