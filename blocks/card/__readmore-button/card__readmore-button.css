@@ -1,4 +1,14 @@
 .card__readmore-button {
+  margin: 0;
+  padding: 8px 8px 8px 0px;
+  border: none;
   width: 210px;
   height: 32px;
+  font-family: 'FormularLight';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: .76;
+  text-transform: uppercase;
+  background-color: transparent;
 }
