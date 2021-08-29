@@ -2,5 +2,22 @@
 @import url(../vendor/fonts/fonts.css);
 /* vendor */
 
-@import url(../blocks/description/description.css);
 @import url(../blocks/body/body.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__first/description__first.css);
+
+@import url(../blocks/description-block/__title/description-block__title.css);
+@import url(../blocks/description-block/__video/description-block__video.css);
+@import url(../blocks/description-block/__text/description-block__text.css);
+@import url(../blocks/description-block/__subtitle/description-block__subtitle.css);
+@import url(../blocks/description-block/__card/description-block__card.css);
+@import url(../blocks/description-block/__card-content/description-block__card-content.css);
+@import url(../blocks/description-block/__card-name/description-block__card-name.css);
+@import url(../blocks/description-block/__card-watch/description-block__card-watch.css);
+@import url(../blocks/description-block/__card-download/description-block__card-download.css);
+@import url(../blocks/description-block/__author-name/description-block__author-name.css);
+@import url(../blocks/description-block/__info/description-block__info.css);
+
+@import url(../blocks/authors/__characters/authors__character.css);
+@import url(../blocks/authors/__profession/authors__profession.css);
+@import url(../blocks/authors/__people/authors__people.css);
