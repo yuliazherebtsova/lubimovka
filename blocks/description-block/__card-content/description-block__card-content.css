@@ -1,0 +1,8 @@
+.description-block__card-content {
+  background-color: #B7C09D;
+  max-width: 240px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
