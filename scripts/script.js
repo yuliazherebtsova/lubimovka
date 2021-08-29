@@ -5,53 +5,54 @@ TODO Чек-лист [V]
 
 * 2. Кнопка "Читать полностью": https://yandex-students.slack.com/archives/C021JDQ27N2/p1630001802024100
 
-* 4. БЭМ + HTML Валидатор
+* 3. БЭМ + HTML Валидатор
 
 */
 
-// Инициализируем Swiper для блока Reviews
+
 const swiperReviews = new Swiper('.reviews__container', {
+  // Инициализируем Swiper для блока Reviews
   wrapperClass: 'reviews__wrapper',
   slideClass: 'reviews__slide',
   slideActiveClass: 'slider__slide_type_active',
 
-  // Отступ между слайдами
   spaceBetween: 50,
+  // Отступ между слайдами
 
-  // Кол-во отображаемых слайдов
   slidesPerView: 1,
+  // Кол-во отображаемых слайдов
 
-  // Кол-во пролистываемых слайдов
   slidesPerGroup: 1,
+  // Кол-во пролистываемых слайдов
 
   // Листать стрелками бесконечно
   loop: true,
 
-  // Автопрокрутка
   // autoplay: {
+  // Автопрокрутка
   //   // Пауза между прокруткой
   //   delay: 3000,
   //   disableOnIteraction: true
   // },
 
-  // Скорость переключения
   speed: 1000,
+  // Скорость переключения
 
-  // Активный слайд по центру
   centeredSlides: true,
+  // Активный слайд по центру
 
-  // Индекс активного слайда
   initialSlide: 0,
+  // Индекс активного слайда
 
-  // Стрелки
   navigation: {
+    // Стрелки
     nextEl: '.reviews__next-button',
     prevEl: '.reviews__prev-button'
   },
 
-  // Навигация
-  // Буллеты, текущее положение
   pagination: {
+    // Навигация
+    // Буллеты, текущее положение
     el: '.reviews__pagination',
     bulletClass: 'slider__bullet',
     bulletActiveClass: 'slider__bullet_type_active',
@@ -60,21 +61,22 @@ const swiperReviews = new Swiper('.reviews__container', {
     dynamicBullets: false,
   },
 
-  // Переход по слайдам путем клика на следующий
   slideToClickedSlide: true,
+  // Переход по слайдам путем клика на следующий
 
+
+  simulateTouch: true,
   // Включение / отключение перетаскивания на десктопе
   // (также включается возможность переключиться на другой слайд по клику на него)
-  simulateTouch: true,
 
-  // Чувствительность свайпа
   touchRatio: 1,
+  // Чувствительность свайпа
 
-  // Угол срабатывания свайпа
   touchAngle: 45,
+  // Угол срабатывания свайпа
 
-  // Брейкпойнты для адаптива
   breakpoints: {
+    // Брейкпойнты для адаптива
     1024: {
       slidesPerView: 2,
       slidesPerGroup: 1,
@@ -86,8 +88,8 @@ const swiperReviews = new Swiper('.reviews__container', {
   },
 });
 
-// Инициализируем Swiper для блока Feedback
 const swiperFeedback = new Swiper('.feedback__container', {
+  // Инициализируем Swiper для блока Feedback
   wrapperClass: 'feedback__wrapper',
   slideClass: 'feedback__slide',
   spaceBetween: 30,
@@ -176,5 +178,7 @@ function loadInitialCardsFeedback(cards) {
 
 loadInitialCardsFeedback(initialCardsFeedback);
 loadInitialCardsReviews(initialCardsReviews);
-swiperFeedback.slideNext(0); // Начинать с первого слайда после загрузки из массива
+swiperFeedback.slideNext(0);
+// Начинать с первого слайда после загрузки из массива
 swiperReviews.slideTo(2);
+// Начинать с первого слайда после загрузки из массива
