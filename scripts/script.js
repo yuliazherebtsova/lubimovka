@@ -1,15 +1,3 @@
-/*
-TODO Чек-лист [V]
-
-* 1. Анимация, ховеры: https://codepen.io/spacehaz/pen/VwWLGqo
-
-* 2. Кнопка "Читать полностью": https://yandex-students.slack.com/archives/C021JDQ27N2/p1630001802024100
-
-* 3. БЭМ + HTML Валидатор
-
-*/
-
-
 const swiperReviews = new Swiper('.reviews__container', {
   // Инициализируем Swiper для блока Reviews
   wrapperClass: 'reviews__wrapper',
@@ -88,6 +76,7 @@ const swiperReviews = new Swiper('.reviews__container', {
   },
 });
 
+// Инициализируем Swiper для блока Feedback
 const swiperFeedback = new Swiper('.feedback__container', {
   // Инициализируем Swiper для блока Feedback
   wrapperClass: 'feedback__wrapper',
@@ -110,8 +99,6 @@ const swiperFeedback = new Swiper('.feedback__container', {
     bulletClass: 'slider__bullet',
     bulletActiveClass: 'slider__bullet_type_active',
     clickable: true,
-    dynamicBullets: true,
-    dynamicMainBullets: 4,
   },
   watchOverflow: true,
   simulateTouch: true,
