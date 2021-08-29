@@ -6,6 +6,8 @@
 @import url('../blocks/page/__section/page__section.css');
 @import url('../blocks/page/__section/_place/page__section_place_feedback.css');
 @import url('../blocks/page/__section/_place/page__section_place_reviews.css');
+@import url('../blocks/page/__section/_place/page__section_place_photo.css');
+@import url('../blocks/page/__section/_place/page__section_place_footer.css');
 /* page */
 
 @import url('../blocks/card/card.css');
@@ -38,3 +40,44 @@
 @import url('../blocks/feedback/__header/feeback__header.css');
 @import url('../blocks/feedback/__slide/feedback__slide.css');
 /* feedback */
+
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__title/gallery__title.css);
+@import url(../blocks/gallery/__items/gallery__items.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+@import url(../blocks/gallery/__image/gallery__image.css);
+/* gallery */
+
+@import url(../blocks/photo/photo.css);
+@import url(../blocks/photo/__image/photo__image.css);
+/* photo */
+
+@import url(../blocks/links/links.css);
+@import url(../blocks/links/__subtitle/links__subtitle.css);
+@import url(../blocks/links/__buttons/links__buttons.css);
+@import url(../blocks/links/__link/links__link.css);
+@import url(../blocks/links/__arrow/links__arrow.css);
+@import url(../blocks/links/__text/links__text.css);
+@import url(../blocks/links/__container/links__container.css);
+/* links */
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__partners/footer__partners.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__partners-logos/footer__partners-logos.css);
+@import url(../blocks/footer/__partners-logo/footer__partners-logo.css);
+@import url(../blocks/footer/__address/footer__address.css);
+@import url(../blocks/footer/__address-first/footer__address-first.css);
+@import url(../blocks/footer/__address-second/footer__address-second.css);
+@import url(../blocks/footer/__logo-image/footer__logo-image.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__nav-links/footer__nav-links.css);
+@import url(../blocks/footer/__list-item/footer__list-item.css);
+@import url(../blocks/footer/__nav-link/footer__nav-link.css);
+@import url(../blocks/footer/__coopyrights/footer__coopyrights.css);
+@import url(../blocks/footer/__coopyright/footer__coopyright.css);
+@import url(../blocks/footer/__shishki-logo/footer__shishki-logo.css);
+/* footer */

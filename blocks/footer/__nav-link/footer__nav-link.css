@@ -1,0 +1,9 @@
+.footer__nav-link {
+  text-decoration: none;
+  font-family: 'FormularLight';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 121%;
+  color: #242424;
+}
