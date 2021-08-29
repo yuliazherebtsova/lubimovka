@@ -6,6 +6,7 @@
 @import url('../blocks/page/__section/page__section.css');
 @import url('../blocks/page/__section/_place/page__section_place_feedback.css');
 @import url('../blocks/page/__section/_place/page__section_place_reviews.css');
+@import url(../blocks/page/__section/_place/page__section_place_gallery.css);
 @import url('../blocks/page/__section/_place/page__section_place_photo.css');
 @import url('../blocks/page/__section/_place/page__section_place_footer.css');
 @import url(../blocks/page/__section/_type/page__section_type_side.css);
