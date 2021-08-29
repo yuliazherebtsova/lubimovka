@@ -1,21 +1,20 @@
 .slider__prev-button {
+  border-style: none;
   margin: 0 20px;
-  /*
   padding: 0;
   align-self: center;
   min-width: 50px;
-  min-height: 50px; */
+  min-height: 50px;
   background-image: url('../../../images/arrowleft.svg');
-  border-bottom-right-radius: 50%;
-  border-top-right-radius: 50%;
-  border-right: 1px solid #242424;
-  /* background-repeat: no-repeat;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  border-left: 1px solid #242424;
+  background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
-  border: none; */
 }
 
-.slider__prev-button:after {
+.slider__prev-button:hover {
   content: "";
   background: #242424;
   display: inline-block;

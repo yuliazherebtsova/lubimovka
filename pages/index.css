@@ -20,13 +20,13 @@
 @import url('../blocks/header/__social-link/header__social-link.css');
 @import url('../blocks/header/__plus/header__plus.css');
 @import url('../blocks/header/__support-link/header__support-link.css');
-@import url(../blocks/header/__support-container/header__support-container.css);
-@import url(../blocks/header/__mobile/header__mobile.css);
-@import url(../blocks/header/__mobile/_active/header__mobile_active.css);
-@import url(../blocks/header/__layout/header__layout.css);
-@import url(../blocks/header/__burger/header__burger.css);
-@import url(../blocks/header/__support-button/header__support-button.css);
-@import url(../blocks/header/__support-button/_hidden/header__support-button_hidden.css);
+@import url('../blocks/header/__support-container/header__support-container.css');
+@import url('../blocks/header/__mobile/header__mobile.css');
+@import url('../blocks/header/__mobile/_active/header__mobile_active.css');
+@import url('../blocks/header/__layout/header__layout.css');
+@import url('../blocks/header/__burger/header__burger.css');
+@import url('../blocks/header/__support-button/header__support-button.css');
+@import url('../blocks/header/__support-button/_hidden/header__support-button_hidden.css');
 /* header */
 
 @import url('../blocks/main-info/main-info.css');
