@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,9 +11,38 @@
   <link rel="icon" href="./images/favicon.svg">
   <title>Lubimovka</title>
 </head>
-
-<body class="page">
-  <section class="reviews slider page__section page__section_place_reviews" aria-label="Блок с рецензиями в СМИ">
+<body class= "page">
+  <main class= "content page__section">
+    <section class= "gallery page__section">
+      <h2 class= "gallery__title">Заголовок блока с фотографиями</h2>
+      <ul class= "gallery__items">
+        <li class= "gallery__item">
+          <img class= "gallery__image" src="./images/gallery__item1.png" alt="2 человека на сцене">
+        </li>
+        <li class= "gallery__item">
+          <img class= "gallery__image" src="./images/gallery__item2.png" alt="Актриса">
+        </li>
+        <li class= "gallery__item">
+          <img class= "gallery__image" src="./images/gallery__item3.png" alt="Актер">
+        </li>
+        <li class= "gallery__item">
+          <img class= "gallery__image" src="./images/gallery__item4.png" alt="Музыкальная группа">
+        </li>
+        <li class= "gallery__item">
+          <img class= "gallery__image" src="./images/gallery__item5.png" alt="Собрание">
+        </li>
+        <li class= "gallery__item">
+          <img class= "gallery__image" src="./images/gallery__item6.png" alt="Девушка">
+        </li>
+        <li class= "gallery__item">
+          <img class= "gallery__image" src="./images/gallery__item7.png" alt="Люди на репетиции">
+        </li>
+        <li class= "gallery__item">
+          <img class= "gallery__image" src="./images/gallery__item8.png" alt="девушка">
+        </li>
+      </ul>
+    </section>
+    <section class="reviews slider page__section page__section_place_reviews" aria-label="Блок с рецензиями в СМИ">
     <div class="slider__header">
       <h2 class="slider__title">Рецензии</h2>
       <div class="reviews__pagination slider__pagination"></div>
@@ -29,7 +57,7 @@
       </div>
     </div>
   </section>
-  <section class="feedback slider page__section page__section_place_feedback" aria-label="Блок с отзывами зрителей">
+    <section class="feedback slider page__section page__section_place_feedback" aria-label="Блок с отзывами зрителей">
     <div class="feedback__header slider__header">
       <h2 class="slider__title">Отзывы зрителей</h2>
       <div class="feedback__pagination slider__pagination"></div>
@@ -44,7 +72,140 @@
       </div>
     </div>
   </section>
-  <template id="slideReviews-template">
+    <section class= "photo page__section page__section_place_photo">
+      <img class= "photo__image" src="./images/image__links.png" alt="2 актера">
+    </section>
+    <section class= "links">  
+      <h2 class= "links__subtitle">Рассказать о&nbsp;спектакле&nbsp;в&nbsp;соцсетях</h2>
+      <div class= "links__buttons">
+        <div class= "links__container">
+          <a class= "links__link" href="#">            
+            <svg class= "links__arrow" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class= "links__arrow" fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
+            </svg>
+            <p class= "links__text">fb</p>
+          </a>
+        </div>
+        <div class= "links__container">
+          <a class= "links__link" href="#">
+            <svg class= "links__arrow" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class= "links__arrow" fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
+            </svg>            
+            <p class= "links__text">vk</p>
+          </a>
+        </div>
+        <div class= "links__container">
+          <a class= "links__link" href="#">
+            <svg class= "links__arrow" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path class= "links__arrow" fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424"/>
+            </svg>            
+            <p class= "links__text">twtr</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+ <footer class= "footer page__section page__section_place_footer">
+    <img class= "footer__logo" src="./images/footer__logo.svg" alt="Логотип">    
+      <div class= "footer__partners">
+        <p class= "footer__text">Генеральные партнеры</p>
+        <ul class= "footer__partners-logos">
+          <li class= "footer__partners-logo">
+            <a href="#" target= "_blank"><img class= "footer__logo-image" src= "./images/footer__partner1.png" alt= "Лого фонда Михаила Прохорова"></a>
+          </li>
+          <li class= "footer__partners-logo">
+            <a href="#" target= "_blank"><img class= "footer__logo-image" src= "./images/footer__partner2.png" alt= "Лого MOSBREW"></a>
+          </li>
+          <li class= "footer__partners-logo">
+            <a href="#" target= "_blank"><img class= "footer__logo-image" src= "./images/footer__partner3.png" alt= "Лого SBTG.ru"></a>
+          </li>
+          <li class= "footer__partners-logo">
+            <a href="#" target= "_blank"><img class= "footer__logo-image" src= "./images/footer__partner4.png" alt= "Лого А поговорить А?"></a>
+          </li>
+        </ul>
+      </div>
+      <div class= "footer__address">
+        <p class= "footer__address-first">Площадка «8/3»</p>
+        <p class= "footer__address-second">Москва,<br> ул.&nbsp;Казакова&nbsp;,&nbsp;8&nbsp;,&nbsp;стр.&nbsp;3 Метро&nbsp;«Курская»</p>
+      </div>
+      <div class= "footer__column"> 
+        <nav class= "footer__nav">
+          <ul class= "footer__nav-links">
+            <li class= "footer__list-item">
+              <a class= "footer__nav-link" href= "#" target= "_blank">Любимовка</a>        
+            </li>
+            <li class= "footer__list-item">
+              <a class= "footer__nav-link" href= "#" target= "_blank">Афиша</a>
+            </li>
+            <li class= "footer__list-item">
+              <a class= "footer__nav-link" href= "#" target= "_blank">Библиотека</a>
+            </li>
+            <li class= "footer__list-item">
+              <a class= "footer__nav-link" href= "#" target= "_blank">Блог</a>
+            </li>
+            <li class= "footer__list-item">
+              <a class= "footer__nav-link" href= "#" target= "_blank">Новости</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class= "footer__nav">
+          <ul class= "footer__nav-links">
+            <li class= "footer__list-item">
+              <a class= "footer__nav-link" href= "#" target= "_blank">О фестивале</a>        
+            </li>
+            <li class= "footer__list-item">
+              <a class= "footer__nav-link" href= "#" target= "_blank">Организаторы</a>
+            </li>
+            <li class= "footer__list-item">
+              <a class= "footer__nav-link" href= "#" target= "_blank">История</a>
+            </li>
+            <li class= "footer__list-item">
+              <a class= "footer__nav-link" href= "#" target= "_blank">Контакты</a>
+            </li>
+            <li class= "footer__list-item">
+              <a class= "footer__nav-link" href= "#" target= "_blank">Для прессы</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class= "footer__nav">
+          <ul class= "footer__nav-links">
+            <li class= "footer__list-item">
+              <a class= "footer__nav-link" href= "#" target= "_blank">Все проекты</a>        
+            </li>
+            <li class= "footer__list-item">
+              <a class= "footer__nav-link" href= "#" target= "_blank">Любимовка.Еще</a>
+            </li class= "footer__list-item">
+            <li class= "footer__list-item">
+              <a class= "footer__nav-link" href= "#" target= "_blank">Спектакли</a>
+            </li>
+            <li class= "footer__list-item">
+              <a class= "footer__nav-link" href= "#" target= "_blank">Сборник Любимовка.Пьесы</a>
+            </li>
+            <li class= "footer__list-item">
+              <a class= "footer__nav-link" href= "#" target= "_blank">Lark+Любимовка</a>
+            </li>
+            <li class= "footer__list-item">
+              <a class= "footer__nav-link" href= "#" target= "_blank">Практика постдраматурга</a>
+            </li>
+            <li class= "footer__list-item">
+              <a class= "footer__nav-link" href= "#" target= "_blank">Эхо Любимовки</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    <div class= "footer__container">
+      <div class= "footer__coopyrights">
+        <p class= "footer__coopyright">&#169; Любимовка, 2021</p>
+        <a class= "footer__coopyright" href="#" target= "_blank">Политика конфиденциальности</a>        
+      </div>
+      <div class= "footer__coopyrights">
+        <img class= "footer__shishki-logo" src="./images/footer__shishki_logo.svg" alt="Лого shishki.collective">
+        <a class= "footer__coopyright" href="#" target= "_blank">дизайн сайта - <br>shishki.collective</a>
+        <a class= "footer__coopyright" href="#" target= "_blank">верстка и разработка -<br> студенты Яндекс.Практикума</a>
+      </div>
+    </div>        
+  </footer>
+    <template id="slideReviews-template">
     <div class="reviews__slide slider__slide">
       <div class="reviews__card card">
         <img class="card__image">
@@ -65,5 +226,4 @@
   <script src="./scripts/initial-cards.js"></script>
   <script src="./scripts/script.js"></script>
 </body>
-
 </html>
