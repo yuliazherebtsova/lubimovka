@@ -1,0 +1,4 @@
+.footer__coopyrights {
+  display: flex;
+  flex-direction: row;
+}

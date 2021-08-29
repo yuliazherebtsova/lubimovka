@@ -1,0 +1,23 @@
+.slider__bullet_type_active {
+  width: 8px;
+  height: 8px;
+  background: #242424;
+}
+
+/* .slider__bullet_type_active-next, .slider__bullet_type_active-next-next,
+.slider__bullet_type_active-prev, .slider__bullet_type_active-prev-prev {
+  display: none;
+} */
+/*
+.slider__bullet_type_active-main {
+  display: inline-block;
+  vertical-align: baseline;
+  margin-right: 16px;
+  width: 6px;
+  height: 6px;
+  border: 1px solid #242424;
+  border-radius: 50%;
+  background-color: transparent;
+  box-sizing: border-box;
+  cursor: pointer;
+} */

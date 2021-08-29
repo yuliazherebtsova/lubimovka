@@ -1,0 +1,19 @@
+.main-info__poster {
+  max-width: 100%;
+  grid-column: 2;
+  grid-row: 1/5;
+}
+
+@media screen and (max-width: 905px){
+  .main-info__poster{
+    grid-column: 1;
+    grid-row: 4;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .main-info__poster{
+    height: 450px;
+    object-fit: cover;
+  }
+}

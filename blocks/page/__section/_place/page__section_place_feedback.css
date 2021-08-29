@@ -1,0 +1,12 @@
+.page__section_place_feedback {
+  margin: 0 auto;
+  max-width: 1440px;
+  box-sizing: border-box;
+  padding: 114px 60px 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .page__section_place_feedback {
+    padding: 76px 0;
+  }
+}

@@ -1,0 +1,15 @@
+.page__section_type_side{
+  margin: 0;
+  margin-left: auto;
+}
+@media screen and (max-width: 1350px){
+  .main-info__container{
+    margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 905px){
+  .page__section_type_side{
+    margin: 0 auto;
+  }
+}

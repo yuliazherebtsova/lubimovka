@@ -1,0 +1,12 @@
+.slider__prev-button {
+  margin: 0 20px 0 20px;
+  padding: 0;
+  align-self: center;
+  min-width: 50px;
+  min-height: 50px;
+  background-image: url('../../../images/feedback-slider-arrow-prev.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+}
