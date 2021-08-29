@@ -3,7 +3,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .slider__header {
+  .feedback__header {
     padding: 0 24px;
     margin-bottom: 24px;
   }

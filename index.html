@@ -107,12 +107,27 @@
         </li>
       </ul>
     </section>
+    <section class="reviews slider page__section page__section_place_reviews" aria-label="Блок с рецензиями в СМИ">
+    <div class="slider__header">
+      <h2 class="slider__title">Рецензии</h2>
+      <div class="reviews__pagination slider__pagination"></div>
+      <button class="reviews__prev-button slider__prev-button" aria-label="Предыдущий слайд"></button>
+      <button class="reviews__next-button slider__next-button" aria-label="Следующий слайд"></button>
+    </div>
+    <!-- Главный контейнер слайдера -->
+    <div class="reviews__container slider__container">
+      <!-- Обязательная оболочка -->
+      <div class="reviews__wrapper slider__wrapper">
+        <!-- Слайд -->
+      </div>
+    </div>
+  </section>
     <section class="feedback slider page__section page__section_place_feedback" aria-label="Блок с отзывами зрителей">
     <div class="feedback__header slider__header">
       <h2 class="slider__title">Отзывы зрителей</h2>
       <div class="feedback__pagination slider__pagination"></div>
-      <button class="feedback__prev-button slider__prev-button"></button>
-      <button class="feedback__next-button slider__next-button"></button>
+      <button class="feedback__prev-button slider__prev-button" type="button" aria-label="Предыдущий слайд"></button>
+      <button class="feedback__next-button slider__next-button" type="button" aria-label="Следующий слайд"></button>
     </div>
     <!-- Главный контейнер слайдера -->
     <div class="feedback__container slider__container">
@@ -255,6 +270,15 @@
       </div>
     </div>        
   </footer>
+    <template id="slideReviews-template">
+    <div class="reviews__slide slider__slide">
+      <div class="reviews__card card">
+        <img class="card__image">
+        <p class="card__text"></p>
+        <button class="card__readmore-button" type="button" aria-label="Читать полностью">Читать полностью</button>
+      </div>
+    </div>
+  </template>
   <template id="slideFeedback-template">
     <div class="feedback__slide slider__slide">
       <div class="feedback__card card">
