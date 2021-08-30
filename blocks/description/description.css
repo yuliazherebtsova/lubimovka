@@ -1,6 +1,14 @@
 .description {
-  font-family: PPNeueMachina;
-  background-color: #E5E5E5;
+  font-family: 'PPNeueMachina';
   display: grid;
+  column-gap: 90px;
   grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 1024px) {
+  .description {
+    row-gap: 24px;
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -1,5 +1,8 @@
 .description-block__info {
-  font-size: 22px;
-  font-family: FormularLight;
   margin: 4px 0 0;
+  font-family: 'FormularLight';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.37;
 }
