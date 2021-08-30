@@ -7,9 +7,6 @@
   border-bottom: 1px solid #232323;
   box-sizing: border-box;
   justify-content: space-between;
-  position: fixed;
-  top: 0;
-  left: 0;
 }
 
 @media screen and (max-width: 900px) {

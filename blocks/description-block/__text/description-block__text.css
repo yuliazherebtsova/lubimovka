@@ -1,7 +1,14 @@
 .description-block__text {
-  font-size: 28px;
-  font-family: FormularLight;
-  text-indent: 60px;
-
+  margin: 20px 0;
   max-width: 602px;
+  font-family: 'FormularLight';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  font-feature-settings: 'ss01' on;
+}
+.description-block__text:last-child {
+  margin: 0;
 }
