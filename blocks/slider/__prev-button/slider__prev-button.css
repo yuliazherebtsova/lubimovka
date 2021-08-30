@@ -5,26 +5,16 @@
   align-self: center;
   min-width: 50px;
   min-height: 50px;
-  background-image: url('../../../images/arrowleft.svg');
-  border-bottom-left-radius: 50%;
+  /* background-image: url('../../../images/arrowleft.svg'); */
+  /* background-image: url('../../../images/feedback-slider-arrow-prev.svg'); */
+  /* border-bottom-left-radius: 50%;
   border-top-left-radius: 50%;
-  border-left: 1px solid #242424;
+  border-left: 1px solid #242424; */
   background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
 }
 
 .slider__prev-button:hover {
-  content: "";
-  background: #242424;
-  display: inline-block;
-  width: 25px;
-  height: 50px;
-  position: absolute;
-  left: -1px;
-  top: -1px;
-  z-index: -1;
-  border-bottom-right-radius: 50px;
-  border-top-right-radius: 50px;
-  transition: .3s all;
+  background-color: #242424;
 }
