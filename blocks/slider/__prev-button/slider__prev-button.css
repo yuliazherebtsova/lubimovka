@@ -13,8 +13,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
+  background: linear-gradient(to left, transparent 50%, #242424 50%) right;
+  background-size: 200%;
+  transition: all .4s ease;
+  cursor: pointer;
 }
 
-.slider__prev-button:hover {
-  background-color: #242424;
+.slider__prev-button:focus, .slider__prev-button:active {
+  transform: scale(1.2);
+}
+
+.slider__prev-button:hover, .slider__prev-button:hover .slider__prev-button-arrow {
+  background-position: left;
+  color: #ECEBE8;
+  fill: #ECEBE8;
 }
