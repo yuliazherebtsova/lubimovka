@@ -1,0 +1,6 @@
+.description {
+  font-family: PPNeueMachina;
+  background-color: #E5E5E5;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

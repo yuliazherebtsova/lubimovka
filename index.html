@@ -13,12 +13,32 @@
   <link rel="icon" href="./images/favicon.svg">
   <title>Lubimovka</title>
 </head>
-
-<body class="page">
-  <main class="content page__section">
-    <header class="header">
-      <img src="./images/logo.svg" class="header__logo" alt="логотип" />
-      <nav class="header__menu">
+<body class= "page">
+  <header class="header">
+    <img src="./images/logo.svg" class="header__logo" alt="логотип" />
+    <nav class="header__menu">
+      <a href="#" class="header__link" target="_blank">Афиша</a>
+      <a href="#" class="header__link" target="_blank">Библиотека</a>
+      <a href="#" class="header__link" target="_blank">Проекты</a>
+      <a href="#" class="header__link" target="_blank">История</a>
+      <a href="#" class="header__link" target="_blank">Блог</a>
+      <a href="#" class="header__link" target="_blank">Новости</a>
+      <a href="#" class="header__link" target="_blank">О фестивале</a>
+      <a href="#" class="header__link" target="_blank">Контакты</a>
+    </nav>
+    <div class="header__social">
+      <a href="#" class="header__social-link" target="_blank">fb</a>
+      <a href="#" class="header__social-link" target="_blank">inst</a>
+      <a href="#" class="header__social-link" target="_blank">ytube</a>
+      <a href="#" class="header__social-link" target="_blank">tlgrm</a>
+      <a href="#" class="header__social-link" target="_blank">vk</a>
+    </div>
+    <button type="button" class="header__support-button header__support-button_hidden">
+      <img src="./images/plus.svg"> поддержать
+    </button>
+    <img src="./images/burger.svg" class="header__burger" alt="меню">
+    <div class="header__mobile">
+      <div class="header__layout">
         <a href="#" class="header__link" target="_blank">Афиша</a>
         <a href="#" class="header__link" target="_blank">Библиотека</a>
         <a href="#" class="header__link" target="_blank">Проекты</a>
@@ -35,64 +55,101 @@
         <a href="#" class="header__social-link" target="_blank">tlgrm</a>
         <a href="#" class="header__social-link" target="_blank">vk</a>
       </div>
-      <button type="button" class="header__support-button header__support-button_hidden">
-        <img src="./images/plus.svg"> поддержать
-      </button>
-      <img src="./images/burger.svg" class="header__burger" alt="меню">
-      <div class="header__mobile">
-        <div class="header__layout">
-          <a href="#" class="header__link" target="_blank">Афиша</a>
-          <a href="#" class="header__link" target="_blank">Библиотека</a>
-          <a href="#" class="header__link" target="_blank">Проекты</a>
-          <a href="#" class="header__link" target="_blank">История</a>
-          <a href="#" class="header__link" target="_blank">Блог</a>
-          <a href="#" class="header__link" target="_blank">Новости</a>
-          <a href="#" class="header__link" target="_blank">О фестивале</a>
-          <a href="#" class="header__link" target="_blank">Контакты</a>
-          <a href="#" class="header__social-link" target="_blank">fb</a>
-          <a href="#" class="header__social-link" target="_blank">inst</a>
-          <a href="#" class="header__social-link" target="_blank">ytube</a>
-          <a href="#" class="header__social-link" target="_blank">tlgrm</a>
-          <a href="#" class="header__social-link" target="_blank">vk</a>
-          <button type="button" class="header__support-button">
-            <img src="./images/plus.svg"> поддержать
-          </button>
+    </div>
+  </header>
+  <main class= "content page__section">
+  <section class="main-info page__section">
+    <button class="main-info__project-button main-info__arrow-left" type="button">Проекты
+      <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path class="main-info__arrow-left" fill-rule="evenodd" clip-rule="evenodd" d="M4 12.5234L4.72483 11.7986L10.5234 6L11.2263 6.70287L5.90563 12.0235L25 12.0235L25 13.0235L5.94976 13.0235L11.2014 18.2752L10.4766 19L4.70287 13.2263L4 12.5234Z" fill="#242424" />
+      </svg>
+    </button>
+    <div class="main-info__container page__section page__section_type_side">
+      <h1 class="main-info__title">С_училища</h1>
+      <h7 class="main-info__text">Пьеса о демоническом обаянии студентки&nbspПТУ и ее роковой роли в жизни преподавателя философии.</h7>
+      <div class="main-info__data-container">
+        <h6 class="main-info__data">12 мая 20:00</h6>
+        <button class="main-info__tickets-button">билеты
+          <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="main-info__arrow-right" fill-rule="evenodd" clip-rule="evenodd" d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z" fill="#242424" />
+          </svg>
+        </button>
+      </div>
+      <img src="./images/poster.png" alt="фотография девушки" class="main-info__poster" />
+      <h6 class="main-info__description">Семён Серзин сделал читку этой пьесы в рамках основной программы Любимовки-2017, Варочный Цех предоставил грант на постановку, а Московский драматический театр имени А.С. Пушкина принял спектакль в репертуар. </h6>
+    </div>
+  </section>
+    <section class="description">
+    <div class="description-block description__first">
+      <h2 class="description-block__title">1 ч. 15 мин. | 18+</h2>
+      <div class="authors">
+        <div class="authors__character">
+          <div class="authors__profession">Драматург</div>
+          <div class="authors__people">Роберт Аскинс</div>
+        </div>
+        <div class="authors__character">
+          <div class="authors__profession">Перевод</div>
+          <div class="authors__people">Оксана Алёшина</div>
+        </div>
+        <div class="authors__character">
+          <div class="authors__profession">Адаптация текста</div>
+          <div class="authors__people">Валерий Печейкин</div>
+        </div>
+        <div class="authors__character">
+          <div class="authors__profession">Режиссёр</div>
+          <div class="authors__people">Юрий Муравицкий</div>
+        </div>
+        <div class="authors__character">
+          <div class="authors__profession">Актёры</div>
+          <div class="authors__people">Фёдор Кокорев, Коля Ноекёльн, Ксения Чекина, Александр Пронькин, Владимир
+            Морозов, Светлана Маршанкина</div>
         </div>
       </div>
-    </header>
-    <section class="main-info page__section">
-      <button class="main-info__project-button main-info__arrow-left" type="button">Проекты
-        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path class="main-info__arrow-left" fill-rule="evenodd" clip-rule="evenodd"
-            d="M4 12.5234L4.72483 11.7986L10.5234 6L11.2263 6.70287L5.90563 12.0235L25 12.0235L25 13.0235L5.94976 13.0235L11.2014 18.2752L10.4766 19L4.70287 13.2263L4 12.5234Z"
-            fill="#242424" />
-        </svg>
-      </button>
-      <div class="main-info__container page__section page__section_type_side">
-        <h1 class="main-info__title">С_училища</h1>
-        <h7 class="main-info__text">Пьеса о демоническом обаянии студентки&nbspПТУ и ее роковой роли в жизни
-          преподавателя философии.</h7>
-        <div class="main-info__data-container">
-          <h6 class="main-info__data">12 мая 20:00</h6>
-          <button class="main-info__tickets-button">билеты
-            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path class="main-info__arrow-right" fill-rule="evenodd" clip-rule="evenodd"
-                d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"
-                fill="#242424" />
-            </svg>
-          </button>
-        </div>
-        <img src="./images/poster.png" alt="фотография девушки" class="main-info__poster" />
-        <h6 class="main-info__description">Семён Серзин сделал читку этой пьесы в рамках основной программы
-          Любимовки-2017, Варочный Цех предоставил грант на постановку, а Московский драматический театр имени А.С.
-          Пушкина принял спектакль в репертуар. </h6>
+    </div>
+    <div class="description-block description__second">
+      <iframe src="https://player.vimeo.com/video/13600336?h=d672483a69" width="640" height="336" frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+      <div class="description-block__text-block">
+        <p class="description-block__text">Пьеса «Длань Господня» (Hand to God) — лауреат американской театральной
+          премии OBIE (Off-Broadway Theater Awards), номинант ежегодно присуждаемой премии TONY (Theatre Of New York),
+          театрального аналога «Оскара», и номинант на Британскую премию Лоуренса Оливье в качестве «Лучшей Новой
+          Комедии». Она была поставлена в бродвейских театрах и в лондонском Вест-Энде.</p>
+        <p class="description-block__text">Этот спектакль – результат коллаборации фестиваля драматургии «Любимовка»,
+          который запустил проект по выпуску собственных спектаклей «Любимовка.Продакшн», Театра 18+ и Театра.doc.
+          Исполнители – выпускники актерской лаборатории Юрия Муравицкого Московской Школы Нового Кино.</p>
+        <p class="description-block__text">Режиссёр спектакля Юрий Муравицкий – лауреат Национальной театральной премии
+          «Золотая маска», лауреат премий Herald Angel Award и Total Theatre Award в номинации Innovation,
+          Experimentation & Playing with Form на Edinburgh Festival Fringe: «В этой пьесе меня задевает её смелость и
+          свобода. И то, что она написана смешно. Мне сейчас интересны комедии. В январе я выпустил «Lё Тартюф. Комедия»
+          в театре на Таганке — тоже комедию и тоже в известном смысле антиклерикальную. У меня есть стойкое ощущение
+          что всему, что сейчас происходит в нашей стране и в мире, мы можем противопоставить только смех. Иногда
+          горький смех, иногда злой. Сейчас в воздухе столько ненависти, что нам всем полезно больше смеяться. И над
+          собой в том числе. «Длань Господня» — это чёрная комедия. Помимо прочего, она показывает к чему приводит
+          навязывание и насильственное насаждение религии».</p>
+        <p class="description-block__text">Пьеса была успешно представлена в России в формате читки в 2016 году рамках
+          лаборатории LARK+Любимовка на сцене Центра им. Мейерхольда.</p>
       </div>
-    </section>
-    <section class="gallery page__section page__section_place_gallery">
-      <h2 class="gallery__title">Заголовок блока с фотографиями</h2>
-      <ul class="gallery__items">
-        <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item1.png" alt="2 человека на сцене">
+      <h3 class="descripion-block__subtitle">Почитать пьесу</h3>
+      <div class="description-block__card">
+        <div class="description-block__card-content">
+          <p class="description-block__card-name">С_училища</p>
+          <div class="description-block__btn-group">
+            <button class='description-block__card-watch'>СМОТРЕТЬ ЧИТКУ <img src="images/icon/arrow-45.png"></button>
+            <button class='description-block__card-download'>СКАЧАТЬ ПЬЕСУ <img
+                src="images/icon/arrow-down.png"></button>
+          </div>
+        </div>
+        <p class="description-block__author-name">Андрей Иванов</p>
+        <p class="description-block__info">Санкт-Петербург</p>
+        <p class="description-block__info">2020</p>
+      </div>
+    </div>
+  </section>
+    <section class= "gallery page__section page__section_place_gallery">
+      <h2 class= "gallery__title">Заголовок блока с фотографиями</h2>
+      <ul class= "gallery__items">
+        <li class= "gallery__item">
+          <img class= "gallery__image" src="./images/gallery__item1.png" alt="2 человека на сцене">
         </li>
         <li class="gallery__item">
           <img class="gallery__image" src="./images/gallery__item2.png" alt="Актриса">
