@@ -10,3 +10,9 @@
     grid-column: 1/2;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .footer__address{
+    display: none;
+  }
+}

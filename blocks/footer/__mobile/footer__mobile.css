@@ -1,0 +1,9 @@
+.footer__mobile {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .footer__mobile {
+    display: grid;
+    grid-template-columns: 157px 1fr;
+  }
+}

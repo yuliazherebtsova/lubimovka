@@ -1,4 +1,4 @@
-.footer__column {
+.footer__columns {
   padding: 62px 0 0 0;
   display: flex;
   flex-direction: row;
@@ -8,7 +8,13 @@
 }
 
 @media (max-width: 768px) {
-  .footer__column {    
+  .footer__columns {    
     grid-column: 2/3;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer__columns{
+    display: none;
   }
 }
