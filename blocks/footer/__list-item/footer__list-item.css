@@ -5,3 +5,9 @@
 .footer__list-item:last-child {
   padding: 0;
 } 
+
+@media screen and (max-width: 900px) {
+  .footer__list-item{
+    padding: 0 0 13px 0;
+  }
+}

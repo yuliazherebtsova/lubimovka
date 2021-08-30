@@ -5,3 +5,8 @@
   position: relative;
 }
 
+@media screen and (max-width: 900px) {
+  .footer{
+    grid-template-columns: 1fr;
+  }
+}

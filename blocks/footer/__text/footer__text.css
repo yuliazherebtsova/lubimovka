@@ -1,7 +1,7 @@
 .footer__text {
   margin: 0;
-  max-width: 145px;
   font-family: 'FormularLight';
+  max-width: 145px;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -9,8 +9,9 @@
   color: #242424;
 }
 
-/* @media (max-width: 768px) {
-  .footer__text {    
-    max-width: ;
+@media screen and (max-width: 900px) {
+  .footer__text{
+    max-width: 100%;
+    padding-top: 19px;
   }
-} */
+}
