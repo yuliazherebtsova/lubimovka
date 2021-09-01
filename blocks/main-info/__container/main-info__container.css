@@ -7,14 +7,20 @@
 }
 
 @media screen and (max-width: 1281px) {
- .main-info__container{
-   column-gap: 100px;
-   max-width: 1180px;
- }
+  .main-info__container {
+    column-gap: 100px;
+    max-width: 1180px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .main-info__container {
+    margin-left: 60px;
+  }
 }
 
 @media screen and (max-width: 905px) {
-  .main-info__container{
+  .main-info__container {
     grid-template-columns: 1fr;
     column-gap: 0;
     grid-template-rows: 70px 1fr 1fr;
@@ -23,7 +29,7 @@
 }
 
 @media screen and (max-width: 624px) {
-  .main-info__container{
+  .main-info__container {
     grid-template-rows: 40px 1fr 1fr;
     max-width: 100%;
     grid-template-rows: 70px 131px 1fr;

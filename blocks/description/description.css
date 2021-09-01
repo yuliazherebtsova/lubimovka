@@ -1,5 +1,5 @@
 .description {
-  font-family: 'PPNeueMachina';
+  font-family: 'PPNeueMachina', 'Arial', sans-serif;
   display: grid;
   column-gap: 90px;
   grid-template-columns: 1fr 1fr;

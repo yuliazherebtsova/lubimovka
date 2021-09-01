@@ -6,7 +6,7 @@
   line-height: 22px;
   font-size: 16px;
   font-style: normal;
-  font-family: 'FormularLight';
+  font-family: 'FormularLight', 'Arial', sans-serif;
   border: 1px solid #232323;
   display: flex;
   align-items: center;

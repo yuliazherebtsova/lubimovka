@@ -1,7 +1,7 @@
 .footer__coopyright {
   margin: 0;
   text-decoration: none;
-  font-family: 'FormularLigh','sans-serif', 'arial';
+  font-family: 'FormularLight', 'sans-serif', 'arial';
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -20,7 +20,7 @@
 } */
 
 @media screen and (max-width: 900px) {
-  .footer__coopyright{
+  .footer__coopyright {
     grid-column: 1/3;
     margin: 0 0 10px;
   }
