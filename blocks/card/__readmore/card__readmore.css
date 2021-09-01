@@ -1,10 +1,9 @@
 .card__readmore {
   margin: 0;
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 0px 8px 0px 0px;
-  width: 210px;
+  padding: 0;
+  width: 200px;
   height: 32px;
   font-family: 'FormularLight';
   font-style: normal;

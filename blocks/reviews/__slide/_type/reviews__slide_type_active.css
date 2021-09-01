@@ -1,0 +1,5 @@
+.reviews__slide_type_active {
+  transition: .5s;
+  transform: scale(1.05);
+  opacity: 1;
+}

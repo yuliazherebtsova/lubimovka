@@ -1,0 +1,16 @@
+.reviews__bullet {
+  display: inline-block;
+  margin-right: 16px;
+  flex-shrink: 0;
+  width: 6px;
+  height: 6px;
+  border: 1px solid #242424;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.reviews__bullet:last-child {
+  margin-right: 0;
+}
