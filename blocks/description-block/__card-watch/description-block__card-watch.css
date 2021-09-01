@@ -15,3 +15,8 @@
   background-color: transparent;
   border-top: 1px solid #242424;
 }
+
+.description-block__card-watch:focus {
+  background-color: #242424;
+  color: #fff;
+}
