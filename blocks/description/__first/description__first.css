@@ -6,5 +6,7 @@
   .description__first {
     padding: 58px 20px 72px 25px;
     background-color: #fff;
+    width: 100%;
+    box-sizing: border-box;
   }
 }
