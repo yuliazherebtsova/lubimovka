@@ -3,7 +3,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .page__section_place_description  {
-    padding: 25px;
+  .page__section_place_description {
+    padding: 0px;
   }
 }

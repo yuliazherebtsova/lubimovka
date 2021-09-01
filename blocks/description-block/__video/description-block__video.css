@@ -7,9 +7,9 @@
 }
 
 @media screen and (max-width: 768px) {
-  .description-block__video  {
-    width: 389px;
-    height: 210px;
+  .description-block__video {
+    max-width: 320px;
+    height: 206px;
     margin-bottom: 0;
   }
 }
