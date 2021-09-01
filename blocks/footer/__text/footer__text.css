@@ -1,6 +1,6 @@
 .footer__text {
   margin: 0;
-  font-family: 'FormularLight';
+  font-family: 'FormularLight', 'Arial', sans-serif;
   max-width: 145px;
   font-style: normal;
   font-weight: 300;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 900px) {
-  .footer__text{
+  .footer__text {
     max-width: 100%;
     padding-top: 19px;
   }

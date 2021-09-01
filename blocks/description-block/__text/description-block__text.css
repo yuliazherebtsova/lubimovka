@@ -1,7 +1,7 @@
 .description-block__text {
   margin: 20px 0;
   max-width: 602px;
-  font-family: 'FormularLight';
+  font-family: 'FormularLight', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;

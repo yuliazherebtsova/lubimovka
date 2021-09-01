@@ -3,15 +3,18 @@
 /* vendor */
 
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/__section/page__section.css);
-@import url(../blocks/page/__section/_place/page__section_place_feedback.css);
-@import url(../blocks/page/__section/_place/page__section_place_reviews.css);
-@import url(../blocks/page/__section/_place/page__section_place_gallery.css);
-@import url(../blocks/page/__section/_place/page__section_place_photo.css);
 @import url(../blocks/page/__section/_place/page__section_place_footer.css);
-@import url(../blocks/page/__section/_place/page__section_place_side.css);
-@import url(../blocks/page/__section/_place/page__section_place_description.css);
 /* page */
+
+@import url(../blocks/content/content.css);
+@import url(../blocks/content/__section/content__section.css);
+@import url(../blocks/content/__section/_place/content__section_place_feedback.css);
+@import url(../blocks/content/__section/_place/content__section_place_reviews.css);
+@import url(../blocks/content/__section/_place/content__section_place_gallery.css);
+@import url(../blocks/content/__section/_place/content__section_place_photo.css);
+@import url(../blocks/content/__section/_place/content__section_place_side.css);
+@import url(../blocks/content/__section/_place/content__section_place_description.css);
+/* content */
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -84,7 +87,6 @@
 @import url(../blocks/card/__readmore/card__readmore.css);
 /* card */
 
-@import url(../blocks/reviews/reviews.css);
 @import url(../blocks/reviews/__header/reviews__header.css);
 @import url(../blocks/reviews/__title/reviews__title.css);
 @import url(../blocks/reviews/__container/reviews__container.css);
@@ -99,7 +101,6 @@
 @import url(../blocks/reviews/__bullet/_type/reviews__bullet_type_active.css);
 /* reviews */
 
-@import url(../blocks/feedback/feedback.css);
 @import url(../blocks/feedback/__header/feedback__header.css);
 @import url(../blocks/feedback/__title/feedback__title.css);
 @import url(../blocks/feedback/__container/feedback__container.css);

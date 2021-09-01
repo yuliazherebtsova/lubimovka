@@ -7,7 +7,7 @@
   font-size: 16px;
   line-height: 14px;
   font-style: normal;
-  font-family: 'FormularLight';
+  font-family: 'FormularLight', 'Arial', sans-serif;
   border: none;
   border-right: 1px solid #232323;
   border-bottom: 1px solid #232323;
@@ -28,6 +28,7 @@
   background-position: left;
   color: #ecebe8;
   fill: #ecebe8;
+}
 
 @media screen and (max-width: 624px) {
   .main-info__project-button {

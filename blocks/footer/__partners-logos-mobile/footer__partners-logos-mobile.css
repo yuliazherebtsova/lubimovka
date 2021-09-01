@@ -1,4 +1,4 @@
-.footer__partners-logos-mobile{
+.footer__partners-logos-mobile {
   display: grid;
   list-style: none;
   padding: 0;
@@ -11,4 +11,16 @@
   margin: 0 0 35px;
   justify-items: center;
   justify-content: center;
+  position: relative;
 }
+
+/* .footer__partners-logos-mobile::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  margin: 0 -55px;
+  border-bottom: 1px solid #242424;
+} */
