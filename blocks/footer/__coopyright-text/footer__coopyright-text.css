@@ -1,0 +1,19 @@
+.footer__coopyright-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding: 0 32px 0 0;
+  margin: 0;
+  font-family: 'FormularLigh','sans-serif', 'arial';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 121%;
+  color: #242424;
+}
+
+.footer__coopyright-text:last-child {
+  padding: 0;
+  display: inline;
+}
+
