@@ -1,4 +1,4 @@
-.slider__header {
+.reviews__header {
   max-width: 720px;
   margin: 0 auto 40px;
   padding: 0;
@@ -7,9 +7,9 @@
 }
 
 @media screen and (max-width: 768px) {
-  .slider__header {
+  .reviews__header {
     padding: 0 24px;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
     position: relative;
   }
 }

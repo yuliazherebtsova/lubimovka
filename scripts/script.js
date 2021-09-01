@@ -3,7 +3,29 @@ TODO Чек-лист [V]
 
 * 1. Анимация, ховеры: https://codepen.io/spacehaz/pen/VwWLGqo
 
-* 3. БЭМ + HTML Валидатор
+* 2. БЭМ + HTML Валидатор
+
+* 3. Опечатки в шрифтах
+
+* 4. Общие замечания по ревью
+
+Общие замечания:
+Заполните readme.md более полно с описанием проекта.
+Также нужно выложить проект на gh-pages и дать на него ссылку в readme
+Есть ошибки валидации
+В консоли ест ошибки из-за ненайденных файлов http://joxi.ru/xAeZQZacMpgpVr
+Не подключились изображения в рецензиях http://joxi.ru/E2p7O78tv9aBnm
+У меню в футере нет стилей по наведению и стилей для активного пункта меню.
+Так как это кнопки, то при нажатии должно что-то происходить, например, меняться цвет фона на черный, как в остальных подобных кнопках http://joxi.ru/BA0qXqDs1JPwnr
+Есть горизонтальная прокрутка на ширине 320-430рх, 770-890рх, 900-1135рх
+На ширине 320рх внешний вид блока links не соответствует макету http://joxi.ru/Vm6j8jWt3DjXMm
+На ширине 320рх внешний вид шапки не соответствует макету (кнопка "Проекты" должна переместиться в хэдер, текст и кнопка "Билеты" должны быть выровнены правее) http://joxi.ru/V2V0P0ViBxKN3r
+На ширине 320рх фон блока descriptio-block по макету другой. Также в этом блоке неправильные отступы.
+На ширине 320рх фотографии в блоке с фотографиями располагаются по две в ряд.
+При указании шрифта указывайте резервный шрифт и тип засечек.
+
+Можно лучше:
+ссылкам в футере хорошо было бы задать стили по наведению.
 
 */
 
@@ -18,7 +40,7 @@ const swiperReviews = new Swiper('.reviews__container', {
   // Инициализируем Swiper для блока Reviews
   wrapperClass: 'reviews__wrapper',
   slideClass: 'reviews__slide',
-  slideActiveClass: 'slider__slide_type_active',
+  slideActiveClass: 'reviews__slide_type_active',
 
   spaceBetween: 50,
   // Отступ между слайдами
@@ -58,8 +80,8 @@ const swiperReviews = new Swiper('.reviews__container', {
     // Навигация
     // Буллеты, текущее положение
     el: '.reviews__pagination',
-    bulletClass: 'slider__bullet',
-    bulletActiveClass: 'slider__bullet_type_active',
+    bulletClass: 'reviews__bullet',
+    bulletActiveClass: 'reviews__bullet_type_active',
     // Буллеты
     clickable: true,
     dynamicBullets: false,
@@ -112,8 +134,8 @@ const swiperFeedback = new Swiper('.feedback__container', {
   },
   pagination: {
     el: '.feedback__pagination',
-    bulletClass: 'slider__bullet',
-    bulletActiveClass: 'slider__bullet_type_active',
+    bulletClass: 'feedback__bullet',
+    bulletActiveClass: 'feedback__bullet_type_active',
     clickable: true,
   },
   watchOverflow: true,
