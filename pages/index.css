@@ -144,4 +144,7 @@
 @import url(../blocks/footer/__nav-links-second-grid/footer__nav-links-second-grid.css);
 @import url(../blocks/footer/__nav-links-third-grid/footer__nav-links-third-grid.css);
 @import url(../blocks/footer/__partners-logos-mobile/footer__partners-logos-mobile.css);
+@import url(../blocks/footer/__nav-link/_active/footer__nav-link_active.css);
+@import url(../blocks/footer/__coopyright-text/footer__coopyright-text.css);
+@import url(../blocks/footer/__coopyright-text/_type/footer__coopyright-text_type_wide.css);
 /* footer */
