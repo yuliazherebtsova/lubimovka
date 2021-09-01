@@ -159,11 +159,11 @@
         </li>
       </ul>
     </section>
-    <section class="reviews slider page__section page__section_place_reviews" aria-label="Блок с рецензиями в СМИ">
-      <div class="slider__header">
-        <h2 class="slider__title">Рецензии</h2>
-        <div class="reviews__pagination slider__pagination"></div>
-        <button class="reviews__prev-button slider__prev-button" aria-label="Предыдущий слайд">
+    <section class="reviews page__section page__section_place_reviews" aria-label="Блок с рецензиями в СМИ">
+      <div class="reviews__header">
+        <h2 class="reviews__title">Рецензии</h2>
+        <div class="reviews__pagination"></div>
+        <button class="reviews__prev-button" type="button" aria-label="Предыдущий слайд">
           <!-- <svg class="slider__prev-button-arrow" width="25" height="25" viewBox="0 0 25 25" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <path class="slider__prev-button-arrow" fill-rule="evenodd" clip-rule="evenodd"
@@ -171,7 +171,7 @@
               fill="#242424" />
           </svg> -->
         </button>
-        <button class="reviews__next-button slider__next-button" aria-label="Следующий слайд">
+        <button class="reviews__next-button" type="button" aria-label="Следующий слайд">
           <!-- <svg class="slider__next-button-arrow" width="25" height="25" viewBox="0 0 25 25" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <path class="slider__next-button-arrow" fill-rule="evenodd" clip-rule="evenodd"
@@ -181,24 +181,24 @@
         </button>
       </div>
       <!-- Главный контейнер слайдера -->
-      <div class="reviews__container slider__container">
+      <div class="reviews__container">
         <!-- Обязательная оболочка -->
-        <div class="reviews__wrapper slider__wrapper">
+        <div class="reviews__wrapper">
           <!-- Слайд -->
         </div>
       </div>
     </section>
-    <section class="feedback slider page__section page__section_place_feedback" aria-label="Блок с отзывами зрителей">
-      <div class="feedback__header slider__header">
-        <h2 class="slider__title">Отзывы зрителей</h2>
-        <div class="feedback__pagination slider__pagination"></div>
-        <button class="feedback__prev-button slider__prev-button" type="button" aria-label="Предыдущий слайд"></button>
-        <button class="feedback__next-button slider__next-button" type="button" aria-label="Следующий слайд"></button>
+    <section class="feedback page__section page__section_place_feedback" aria-label="Блок с отзывами зрителей">
+      <div class="feedback__header">
+        <h2 class="feedback__title">Отзывы зрителей</h2>
+        <div class="feedback__pagination"></div>
+        <button class="feedback__prev-button" type="button" aria-label="Предыдущий слайд"></button>
+        <button class="feedback__next-button" type="button" aria-label="Следующий слайд"></button>
       </div>
       <!-- Главный контейнер слайдера -->
-      <div class="feedback__container slider__container">
+      <div class="feedback__container">
         <!-- Обязательная оболочка -->
-        <div class="feedback__wrapper slider__wrapper">
+        <div class="feedback__wrapper">
           <!-- Слайд -->
         </div>
       </div>
@@ -422,7 +422,7 @@
     </div>
   </footer>
   <template id="slideReviews-template">
-    <div class="reviews__slide slider__slide">
+    <div class="reviews__slide">
       <div class="reviews__card card">
         <img class="card__image">
         <p class="card__text"></p>
@@ -436,7 +436,7 @@
     </div>
   </template>
   <template id="slideFeedback-template">
-    <div class="feedback__slide slider__slide">
+    <div class="feedback__slide">
       <div class="feedback__card card">
         <p class="card__text"></p>
         <p class="card__author"></p>

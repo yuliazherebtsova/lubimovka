@@ -1,5 +1,9 @@
 .reviews__slide {
-  opacity: 1;
   min-height: 782px;
+  margin: 0;
+  padding: 0;
+  flex-shrink: 0;
+  transition: .25s;
+  opacity: .4;
 }
 

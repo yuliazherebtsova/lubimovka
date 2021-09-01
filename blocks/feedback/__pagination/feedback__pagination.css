@@ -1,4 +1,4 @@
-.slider__pagination {
+.feedback__pagination {
   align-self: center;
   display: flex;
   justify-content: flex-end;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .slider__pagination {
+  .feedback__pagination {
     margin-right: 0;
     justify-content: flex-start;
     position: absolute;
