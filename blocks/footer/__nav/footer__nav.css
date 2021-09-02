@@ -1,3 +1,10 @@
 .footer__nav {
   
 }
+
+.footer__nav:first-of-type {
+  padding: 0 100px 0 0;
+}
+.footer__nav:last-of-type {
+  padding: 0 0 0 77px;
+}
