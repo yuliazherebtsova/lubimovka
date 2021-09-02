@@ -1,4 +1,6 @@
 .links__link {
+  max-width: 53px;
+  max-height: 26px;
   cursor: pointer;
   max-width: max-content;
   display: flex;

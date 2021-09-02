@@ -2,9 +2,10 @@
   padding: 48px 92px 54px 0;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 414px) {
   .page__section_place_footer {
-    max-width: 320px;
+    max-width: 320px;   
+    margin: 0; 
     padding: 48px 0 54px 55px;
   }
 }

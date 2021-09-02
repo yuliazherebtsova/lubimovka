@@ -10,7 +10,7 @@
   color: #242424;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 414px) {
   .gallery__title {
     margin: 0 0 0 24px;
     max-width: 369px;

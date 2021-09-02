@@ -153,4 +153,5 @@
 @import url(../blocks/footer/__nav-link/_active/footer__nav-link_active.css);
 @import url(../blocks/footer/__coopyright-text/footer__coopyright-text.css);
 @import url(../blocks/footer/__coopyright-text/_type/footer__coopyright-text_type_wide.css);
+@import url(../blocks/footer/__line/footer__line.css);
 /* footer */
