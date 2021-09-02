@@ -4,7 +4,7 @@
   transition: opacity .2s ease;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 900px) {
   .footer__partners-logo {
     padding-right: 15px;
   }

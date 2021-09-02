@@ -1,4 +1,4 @@
-.footer__coopyright-text {
+.footer__copyright-text {
   display: flex;
   flex-direction: column;
   max-width: 100%;
@@ -12,7 +12,7 @@
   color: #242424;
 }
 
-.footer__coopyright-text:last-child {
+.footer__copyright-text:last-child {
   padding: 0;
   display: inline;
 }

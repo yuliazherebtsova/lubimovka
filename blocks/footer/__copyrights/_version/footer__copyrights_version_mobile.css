@@ -1,5 +1,5 @@
 @media screen and (max-width: 900px) {
-  .footer__coopyrights_version_mobile {
+  .footer__copyrights_version_mobile {
     display: grid;
     grid-column: 1;
     grid-template-columns: 27px 1fr;
