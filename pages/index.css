@@ -3,6 +3,7 @@
 /* vendor */
 
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/__section/page__section.css);
 @import url(../blocks/page/__section/_place/page__section_place_footer.css);
 /* page */
 
