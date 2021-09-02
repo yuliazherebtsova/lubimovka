@@ -1,5 +1,5 @@
 .footer__coopyright {
-  margin: 0;  
+  margin: 10px 0 0 0;
   text-decoration: none;
   font-family: 'FormularLight', 'sans-serif', 'arial';
   font-style: normal;
@@ -14,14 +14,8 @@
   text-decoration: underline;
 }
 
-/* .footer__coopyright:last-child {
-  padding: 0;
-  text-decoration: 1px solid #242424;
-} */
-
 @media screen and (max-width: 414px) {
   .footer__coopyright {
     grid-column: 1/3;
-    margin: 0 0 10px -26px;
   }
 }
