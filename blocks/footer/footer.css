@@ -1,4 +1,5 @@
 .footer {
+  position: relative;
   display: grid;
   grid-template-columns: 210px max-content 1fr;
   grid-template-rows: min-content min-content min-content;
