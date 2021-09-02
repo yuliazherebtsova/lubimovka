@@ -9,7 +9,7 @@
   color: #242424;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .links__text {
     margin: 20px;
   }

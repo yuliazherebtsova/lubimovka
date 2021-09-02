@@ -1,5 +1,3 @@
-.description__second {}
-
 @media screen and (max-width: 768px) {
   .description__second {
     display: flex;

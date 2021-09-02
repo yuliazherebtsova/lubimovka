@@ -12,14 +12,14 @@
 
 
 
-@media (max-width: 414px) {
+@media (max-width: 900px) {
   .links__subtitle {
     max-width: 270px;
     margin: 0 0 0 26px;
     padding: 18px 0 0 0;
-    font-size: 40px; 
+    font-size: 40px;
   }
   .links__subtitle:last-of-type {
     padding: 40px 0 0 0;
-  }  
+  }
 }
