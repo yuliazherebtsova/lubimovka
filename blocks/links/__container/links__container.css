@@ -1,4 +1,6 @@
 .links__container {
+  max-width: 53px;
+  max-height: 26px;
   margin-right: 8px;
   position: relative;
 }

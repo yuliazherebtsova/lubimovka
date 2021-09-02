@@ -16,3 +16,12 @@
     grid-template-columns: repeat(auto-fit,minmax(206px, 1fr));
   }
 }
+
+@media (max-width: 320px) {
+  .gallery__items {
+    padding: 0;
+    grid-column-gap: 2px;
+    grid-row-gap: 3px;
+    grid-template-columns: repeat(auto-fit,minmax(158px, 1fr));
+  }
+}
