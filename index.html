@@ -16,7 +16,16 @@
 
 <body class="page">
   <header class="header page__section">
-    <img src="./images/logo.svg" class="header__logo" alt="логотип" />
+    <div class = "header__logo-container">
+      <img src="./images/logo.svg" class="header__logo" alt="логотип" />
+      <button class="button button_active main-info__arrow-left" type="button">Проекты
+        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="main-info__arrow-left" fill-rule="evenodd" clip-rule="evenodd"
+            d="M4 12.5234L4.72483 11.7986L10.5234 6L11.2263 6.70287L5.90563 12.0235L25 12.0235L25 13.0235L5.94976 13.0235L11.2014 18.2752L10.4766 19L4.70287 13.2263L4 12.5234Z"
+            fill="#242424" />
+        </svg>
+      </button>
+    </div>
     <nav class="header__menu">
       <a href="#" class="header__link" target="_blank">Афиша</a>
       <a href="#" class="header__link" target="_blank">Библиотека</a>
@@ -35,7 +44,7 @@
       <a href="#" class="header__social-link" target="_blank">vk</a>
     </div>
     <button type="button" class="header__support-button header__support-button_hidden">
-      <img src="./images/plus.svg" alt="Иконка плюса"> поддержать
+      <img src="./images/plus.svg" class="header__plus" alt="Иконка плюса"> поддержать
     </button>
     <img src="./images/burger.svg" class="header__burger" alt="меню">
     <div class="header__mobile">
@@ -60,7 +69,7 @@
   </header>
   <main class="content">
     <section class="main-info content__section">
-      <button class="main-info__project-button main-info__arrow-left" type="button">Проекты
+      <button class="button main-info__arrow-left" type="button">Проекты
         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path class="main-info__arrow-left" fill-rule="evenodd" clip-rule="evenodd"
             d="M4 12.5234L4.72483 11.7986L10.5234 6L11.2263 6.70287L5.90563 12.0235L25 12.0235L25 13.0235L5.94976 13.0235L11.2014 18.2752L10.4766 19L4.70287 13.2263L4 12.5234Z"
