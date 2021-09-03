@@ -8,8 +8,8 @@
 
 @media screen and (max-width: 1280px) {
   .description-block__video {
-    max-width: 320px;
-    height: 206px;
+    max-width: 270px;
+    height: 200px;
     margin-bottom: 0;
   }
 }
