@@ -2,7 +2,7 @@
   max-width: 420px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .description__first {
     padding: 58px 20px 72px 25px;
     background-color: #fff;
