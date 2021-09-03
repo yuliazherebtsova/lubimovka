@@ -1,0 +1,18 @@
+.feedback__icon-arrow {
+  stroke-width: 0;
+}
+
+.feedback__icon .feedback__icon-arrow {
+  stroke: #242424;
+  fill: #242424;
+}
+
+.feedback__icon:hover .feedback__icon-arrow {
+  stroke: #ECEBE8;
+  fill: #ECEBE8;
+}
+
+.feedback__icon-arrow:hover .feedback__icon {
+  stroke: #ECEBE8;
+  fill: #ECEBE8;
+}
