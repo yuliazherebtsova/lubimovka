@@ -17,11 +17,8 @@
 }
 
 
-.description-block__card-download:focus {
+.description-block__card-download:hover {
   background-color: #242424;
   color: #fff;
-}
-
-.description-block__card-download:hover {
   cursor: pointer;
 }
