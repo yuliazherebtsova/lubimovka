@@ -1,0 +1,18 @@
+.reviews__icon-arrow {
+  stroke-width: 0;
+}
+
+.reviews__icon .reviews__icon-arrow {
+  stroke: #242424;
+  fill: #242424;
+}
+
+.reviews__icon:hover .reviews__icon-arrow {
+  stroke: #ECEBE8;
+  fill: #ECEBE8;
+}
+
+.reviews__icon-arrow:hover .reviews__icon {
+  stroke: #ECEBE8;
+  fill: #ECEBE8;
+}
