@@ -32,6 +32,13 @@
   .main-info__container {
     grid-template-rows: 40px 1fr 1fr;
     max-width: 100%;
-    grid-template-rows: 70px 131px 1fr;
+    grid-template-rows: 84px 131px 1fr;
+  }
+}
+
+
+@media screen and (max-width: 415px) {
+  .main-info__container {
+    margin: 0;
   }
 }

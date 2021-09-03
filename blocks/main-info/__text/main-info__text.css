@@ -26,3 +26,10 @@
     align-self: flex-start;
   }
 }
+
+@media screen and (max-width: 330px) {
+  .main-info__text{
+    margin: 16px 0 0 56px;
+    font-size: 18px;
+  }
+}

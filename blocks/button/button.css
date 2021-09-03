@@ -1,4 +1,4 @@
-.main-info__project-button {
+.button {
   width: 120px;
   height: 32px;
   margin: 32px 30px 28px;
@@ -23,15 +23,17 @@
   transition: 0.8s;
 }
 
-.main-info__project-button:hover,
-.main-info__project-button:hover .main-info__arrow-left {
+.button:hover,
+.button:hover .main-info__arrow-left {
   background-position: left;
   color: #ecebe8;
   fill: #ecebe8;
 }
 
-@media screen and (max-width: 624px) {
-  .main-info__project-button {
-    margin: 32px 30px 22px;
+@media screen and (max-width: 900px){
+  .button{
+    display: none;
   }
 }
+
+
