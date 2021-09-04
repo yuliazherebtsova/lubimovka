@@ -46,6 +46,8 @@ const swiperReviews = new Swiper('.reviews__container', {
   // Листать стрелками бесконечно
   loop: true,
 
+  autoHeight: true,
+
   // autoplay: {
   // Автопрокрутка
   //   // Пауза между прокруткой
