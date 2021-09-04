@@ -1,5 +1,5 @@
 .feedback__next-button {
-  margin: 0 10px;
+  margin: 0;
   padding: 0;
   width: 52px;
   height: 52px;
@@ -24,4 +24,3 @@
 .feedback__next-button:hover:after {
   display: none;
 }
-
