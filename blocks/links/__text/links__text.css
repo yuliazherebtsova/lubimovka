@@ -1,0 +1,16 @@
+.links__text {
+  margin: 0;
+  padding: 0 11px 0 0;
+  font-family: 'FormularLight', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 87%;
+  color: #242424;
+}
+
+@media screen and (max-width: 900px) {
+  .links__text {
+    margin: 20px;
+  }
+}

@@ -1,0 +1,15 @@
+.feedback__header {
+  max-width: 720px;
+  margin: 0 auto 60px;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 1024px) {
+  .feedback__header {
+    padding: 0 24px;
+    margin-bottom: 37px;
+    position: relative;
+  }
+}

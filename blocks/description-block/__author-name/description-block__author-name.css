@@ -1,0 +1,9 @@
+.description-block__author-name {
+  max-width: 90px;
+  margin: 17px 0 0;
+  font-family: 'PPNeueMachina', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.2;
+}

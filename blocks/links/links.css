@@ -1,0 +1,12 @@
+.links {
+  font-family: 'PPNeueMachina', 'Arial', sans-serif;
+  padding: 52px 0 0 0;
+  min-height: 275px;
+}
+
+@media (max-width: 900px) {
+  .links{
+    padding: 0;
+    min-height: 293px;
+  }
+}

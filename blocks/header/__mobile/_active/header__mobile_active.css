@@ -1,0 +1,12 @@
+@media screen and (max-width: 904px){
+  .header__mobile_active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 62px;
+    left: 0;
+    width: 100%;
+    transition: left .5 linear;
+    overflow: auto;
+  }
+  }

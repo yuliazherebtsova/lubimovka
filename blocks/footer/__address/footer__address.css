@@ -1,0 +1,18 @@
+.footer__address {
+  grid-column: 2/3;
+  grid-row: 2/2;
+  max-width: 231px;
+  padding: 62px 0 0 0;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__address {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__address {
+    grid-column: 1/2;
+  }
+}

@@ -1,0 +1,19 @@
+.footer__container {
+  padding: 49px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  grid-column: 2/4;
+  grid-row: 3/4;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__container {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__container {
+    grid-column: 1/4;
+  }
+}

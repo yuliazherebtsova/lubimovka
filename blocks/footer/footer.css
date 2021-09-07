@@ -1,0 +1,14 @@
+.footer {
+  position: relative;
+  display: grid;
+  grid-template-columns: 210px max-content 1fr;
+  grid-template-rows: min-content min-content min-content;
+
+}
+
+@media screen and (max-width: 1280px) {
+  .footer{
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+}

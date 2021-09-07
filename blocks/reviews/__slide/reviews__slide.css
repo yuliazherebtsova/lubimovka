@@ -1,0 +1,9 @@
+.reviews__slide {
+  min-height: 782px;
+  margin: 0;
+  padding: 0;
+  flex-shrink: 0;
+  transition: .25s;
+  opacity: .4;
+}
+

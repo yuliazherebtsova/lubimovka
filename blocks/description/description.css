@@ -1,0 +1,14 @@
+.description {
+  font-family: 'PPNeueMachina', 'Arial', sans-serif;
+  display: grid;
+  column-gap: 90px;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 1024px) {
+  .description {
+    row-gap: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+}

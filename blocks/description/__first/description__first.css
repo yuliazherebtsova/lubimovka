@@ -1,0 +1,12 @@
+.description__first {
+  max-width: 420px;
+}
+
+@media screen and (max-width: 900px) {
+  .description__first {
+    padding: 58px 20px 72px 25px;
+    background-color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,28 @@
+.main-info__tickets-button {
+  width: 240px;
+  height: 56px;
+  text-transform: uppercase;
+  font-weight: 300;
+  line-height: 22px;
+  font-size: 16px;
+  font-style: normal;
+  font-family: 'FormularLight', 'Arial', sans-serif;
+  border: 1px solid #232323;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-left: 16px;
+  padding-right: 20px;
+  background-color: transparent;
+  align-self: flex-end;
+  background: linear-gradient(to left, transparent 50%, #242424 50%) right;
+  background-size: 200%;
+  transition: 0.8s;
+}
+
+.main-info__tickets-button:hover, .main-info__tickets-button:hover .main-info__arrow-right {
+  background-position: left;
+  color: #ECEBE8;
+  fill: #ECEBE8;
+}

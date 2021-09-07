@@ -1,0 +1,14 @@
+.feedback__icon {
+  width: 100%;
+  height: 100%;
+  fill: #ECEBE8;
+  stroke-width: 2px;
+}
+
+.feedback__icon:hover {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  stroke: #242424;
+  fill: #242424;
+  animation: slider-nav-button-animation 2s linear forwards;
+}

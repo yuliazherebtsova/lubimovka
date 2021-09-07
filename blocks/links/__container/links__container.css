@@ -1,0 +1,11 @@
+.links__container {
+  max-width: 53px;
+  max-height: 26px;
+  margin-right: 8px;
+  position: relative;
+}
+
+.links__container:last-child {
+  margin-right: 0;
+}
+

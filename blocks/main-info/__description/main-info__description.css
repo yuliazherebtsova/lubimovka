@@ -1,0 +1,33 @@
+.main-info__description {
+  font-family: 'PPNeueMachina', 'Arial', sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  max-width: 586px;
+  grid-column: 2;
+  margin: 48px 0 0;
+}
+
+@media screen and (max-width: 1010px) {
+  .main-info__description{
+    margin: 10px 0 0;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 905px) {
+  .main-info__description {
+    line-height: 24px;
+    margin: 25px 0 0;
+    grid-column: 1;
+  }
+}
+
+@media screen and (max-width: 624px) {
+  .main-info__description{
+    max-width: 365px;
+    margin: 56px 25px 0;
+  }
+}

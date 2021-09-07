@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+  .description__second {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 24px 0;
+    align-items: center;
+  }
+}

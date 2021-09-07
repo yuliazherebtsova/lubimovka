@@ -1,0 +1,15 @@
+.description-block__video {
+  margin-bottom: 44px;
+  padding: 0;
+  width: 691px;
+  height: 389px;
+  border: none;
+}
+
+@media screen and (max-width: 1280px) {
+  .description-block__video {
+    max-width: 270px;
+    height: 200px;
+    margin-bottom: 0;
+  }
+}

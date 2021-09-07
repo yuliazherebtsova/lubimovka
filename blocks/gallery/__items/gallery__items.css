@@ -1,0 +1,27 @@
+.gallery__items {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(359px, 1fr));
+  grid-gap: 1px;
+  padding: 40px 0 0 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .gallery__items {
+    padding: 22px 0 0 0;
+    grid-column-gap: 2px;
+    grid-row-gap: 3px;
+    grid-template-columns: repeat(auto-fit, minmax(206px, 1fr));
+  }
+}
+
+@media (max-width: 320px) {
+  .gallery__items {
+    padding: 22px 0 0 0;
+    grid-column-gap: 2px;
+    grid-row-gap: 3px;
+    grid-template-columns: repeat(auto-fit, minmax(158px, 1fr));
+  }
+}

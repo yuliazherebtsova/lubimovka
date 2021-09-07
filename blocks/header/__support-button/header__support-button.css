@@ -1,0 +1,48 @@
+.header__support-button {
+  font-family: 'FormularLight', 'Arial', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 17px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #232323;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  width: 164px;
+  height: 62px;
+  background: linear-gradient(to left, transparent 50%, #242424 50%) right;
+  background-size: 200%;
+  transition: 0.8s;
+}
+
+.header__support-button:hover{
+  background-position: left;
+  color: #ECEBE8;
+  fill: #ECEBE8;
+}
+
+@media screen and (max-width: 1025px) {
+  .header__support-button {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__support-button {
+    font-size: 25px;
+    line-height: 1;
+    padding-bottom: 10px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__support-button {
+    font-size: 17px;
+  }
+}

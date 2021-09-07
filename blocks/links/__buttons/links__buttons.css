@@ -1,0 +1,10 @@
+.links__buttons {
+  display: flex;
+  margin: -95px 0 0 583px;
+}
+
+@media screen and (max-width: 900px) {
+  .links__buttons {
+    margin: -112px 0 0 27px;
+  }
+}

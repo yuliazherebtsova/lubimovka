@@ -1,0 +1,10 @@
+.footer__shishki-logo {
+  margin: -13px 4px 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .footer__shishki-logo{
+    margin: 0;
+  }
+}

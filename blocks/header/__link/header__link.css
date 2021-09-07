@@ -1,0 +1,43 @@
+.header__link {
+  font-family: 'FormularLight', 'Arial', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  text-decoration: none;
+  color: #242424;
+}
+
+@media screen and (max-width: 1025px) {
+  .header__link {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__link {
+    font-size: 40px;
+    line-height: 1;
+    padding-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+  .header__link:hover {
+    background-color: #232323;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__link {
+    font-size: 25px;
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .header__link{
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+}

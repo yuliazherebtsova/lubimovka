@@ -1,0 +1,11 @@
+.reviews__card {
+  padding: 65px 90px 100px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .reviews__card {
+    padding: 87px 37px;
+  }
+}

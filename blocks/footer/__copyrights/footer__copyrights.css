@@ -1,0 +1,4 @@
+.footer__copyrights {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,11 @@
+@keyframes slider-nav-button-animation {
+  from {
+    fill: #ECEBE8;
+  }
+  20% {
+    fill: #242424;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}

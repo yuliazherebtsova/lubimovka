@@ -1,0 +1,25 @@
+.links__subtitle {
+  margin: 0 0 0 362px;
+  padding: 0 0 0 0;
+  max-width: 666px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  color: #242424;
+}
+
+
+
+@media (max-width: 900px) {
+  .links__subtitle {
+    max-width: 270px;
+    margin: 0 0 0 26px;
+    padding: 18px 0 0 0;
+    font-size: 40px;
+  }
+  .links__subtitle:last-of-type {
+    padding: 40px 0 0 0;
+  }
+}
