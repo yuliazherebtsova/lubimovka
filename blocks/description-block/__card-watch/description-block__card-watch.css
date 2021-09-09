@@ -16,12 +16,12 @@
   border-top: 1px solid #242424;
   background: linear-gradient(to left, transparent 50%, #242424 50%) right;
   background-size: 200%;
-  transition: 0.8s;
+  cursor: pointer;
 }
 
-.description-block__card-watch:hover {
-  background-color: #242424;
-  color: #fff;
-  cursor: pointer;
+.description-block__card-watch:hover, .description-block__card-watch:hover .description-block__arrow {
   background-position: left;
+  color: #ECEBE8;
+  fill: #ECEBE8;
+  transition: 0.3s;
 }
