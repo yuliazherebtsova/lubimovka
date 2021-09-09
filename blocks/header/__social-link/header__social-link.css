@@ -14,6 +14,13 @@
   margin-right: 0;
 }
 
+.header__social-link:hover {
+  border-left: 1px solid #232323;
+  border-right: 1px solid #232323;
+  padding: 0 10px 0 10px;
+  border-radius: 50px 50px 50px 50px;
+}
+
 @media screen and (max-width: 1025px) {
   .header__social-link {
     font-size: 14px;
@@ -28,7 +35,6 @@
     cursor: pointer;
     transition: all 0.5s ease-in-out;
   }
-
   .header__social-link:hover {
     background-color: #232323;
     color: white;
