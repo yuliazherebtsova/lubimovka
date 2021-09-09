@@ -6,6 +6,7 @@
 
 }
 
+
 @media screen and (max-width: 1280px) {
   .footer{
     grid-template-columns: 1fr;
