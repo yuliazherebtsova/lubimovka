@@ -15,8 +15,8 @@
   content: '';
   position: absolute;
   bottom: 10px;
-  left: 0;
-  width: 100%;
+  left: -300;
+  width: 300%;
   height: 100%;
   border-bottom: 1px solid #242424;
 }
