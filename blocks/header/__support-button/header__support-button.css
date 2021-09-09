@@ -12,7 +12,7 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  padding: 0;
+  padding: 0 17px;
   width: 164px;
   height: 62px;
   background: linear-gradient(to left, transparent 50%, #242424 50%) right;
@@ -20,7 +20,7 @@
   transition: 0.8s;
 }
 
-.header__support-button:hover{
+.header__support-button:hover {
   background-position: left;
   color: #ECEBE8;
   fill: #ECEBE8;
@@ -45,4 +45,8 @@
   .header__support-button {
     font-size: 17px;
   }
+}
+
+.header__support-button:hover .header__plus {
+  filter: invert(100%);
 }
