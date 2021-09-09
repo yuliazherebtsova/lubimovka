@@ -3,6 +3,7 @@
   padding: 0;
   width: 52px;
   height: 52px;
+  min-width: 52px;
   position: relative;
   cursor: pointer;
   border: none;
@@ -24,4 +25,3 @@
 .feedback__next-button:hover:after {
   display: none;
 }
-
