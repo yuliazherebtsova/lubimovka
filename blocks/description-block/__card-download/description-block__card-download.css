@@ -16,13 +16,13 @@
   border-top: 1px solid #242424;
   background: linear-gradient(to left, transparent 50%, #242424 50%) right;
   background-size: 200%;
-  transition: 0.8s;
+  cursor: pointer;
 }
 
-
-.description-block__card-download:hover {
+.description-block__card-download:hover, .description-block__card-download:hover .description-block__arrow {
   background-color: #242424;
   color: #fff;
-  cursor: pointer;
+  fill: #ECEBE8;
   background-position: left;
+  transition: 0.3s;
 }

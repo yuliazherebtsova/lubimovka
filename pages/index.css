@@ -68,6 +68,7 @@
 @import url(../blocks/description-block/__card-download/description-block__card-download.css);
 @import url(../blocks/description-block/__author-name/description-block__author-name.css);
 @import url(../blocks/description-block/__info/description-block__info.css);
+@import url(../blocks/description-block/__arrow/description-block__arrow.css);
 /* description-block */
 
 @import url(../blocks/authors/__characters/authors__character.css);
