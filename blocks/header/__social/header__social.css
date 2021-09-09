@@ -1,7 +1,8 @@
-.header__social{
+.header__social {
   display: flex;
   justify-content: space-evenly;
   width: 257px;
+  padding: 0 25px;
   align-items: center;
   border-left: 1px solid #232323;
   border-right: 1px solid #232323;
@@ -10,7 +11,7 @@
 }
 
 @media screen and (max-width: 900px) {
-  .header__social{
+  .header__social {
     display: none;
   }
 }

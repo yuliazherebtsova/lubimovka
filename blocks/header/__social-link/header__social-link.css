@@ -1,4 +1,6 @@
 .header__social-link {
+  display: block;
+  margin-right: 16px;
   font-family: 'FormularLight', 'Arial', sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -6,6 +8,10 @@
   line-height: 18px;
   text-decoration: none;
   color: #232323;
+}
+
+.header__social-link:last-child {
+  margin-right: 0;
 }
 
 @media screen and (max-width: 1025px) {
@@ -22,6 +28,7 @@
     cursor: pointer;
     transition: all 0.5s ease-in-out;
   }
+
   .header__social-link:hover {
     background-color: #232323;
     color: white;
