@@ -8,6 +8,14 @@
   color: #242424;
 }
 
+.header__link:hover {
+  box-sizing: border-box;
+  border-left: 1px solid #232323;
+  border-right: 1px solid #232323;
+  padding: 0 10px 0 10px;
+  border-radius: 50px 50px 50px 50px;
+}
+
 @media screen and (max-width: 1025px) {
   .header__link {
     font-size: 14px;
@@ -25,6 +33,9 @@
   .header__link:hover {
     background-color: #232323;
     color: white;
+    border: none;
+    padding: 0 0 20px 0;
+    border-radius: 0;
   }
 }
 
@@ -36,7 +47,7 @@
 }
 
 @media screen and (max-width: 325px) {
-  .header__link{
+  .header__link {
     font-size: 20px;
     padding-bottom: 15px;
   }
