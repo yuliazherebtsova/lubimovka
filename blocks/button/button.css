@@ -21,6 +21,7 @@
   background: linear-gradient(to left, transparent 50%, #242424 50%) right;
   background-size: 200%;
   transition: 0.8s;
+  cursor: pointer;
 }
 
 .button:hover,
