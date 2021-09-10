@@ -1,0 +1,6 @@
+.links__arrow {
+  background: transparent;
+  transition: 0.3s cubic-bezier(.96, -0, 1, 1);
+  -webkit-transition: all 0.3s cubic-bezier(.96, -0, 1, 1);
+  -moz-transition: all 0.3s cubic-bezier(.96, -0, 1, 1);
+}

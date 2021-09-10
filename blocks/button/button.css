@@ -24,17 +24,22 @@
   cursor: pointer;
 }
 
-.button:hover,
-.button:hover .main-info__arrow-left {
+.button:hover {
   background-position: left;
   color: #ecebe8;
-  fill: #ecebe8;
+  transition: 0.8s;
 }
 
-@media screen and (max-width: 900px){
-  .button{
+.button:hover .main-info__arrow-left {
+  background-position: left;
+  fill: #ecebe8;
+  transition: 1.2s cubic-bezier(.72, .20, .16, 1);
+  -webkit-transition: all 1.2s cubic-bezier(.72, .20, .16, 1);
+  -moz-transition: all 1.2s cubic-bezier(.72, .20, .16, 1);
+}
+
+@media screen and (max-width: 900px) {
+  .button {
     display: none;
   }
 }
-
-

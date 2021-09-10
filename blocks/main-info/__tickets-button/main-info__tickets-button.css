@@ -19,11 +19,19 @@
   background: linear-gradient(to left, transparent 50%, #242424 50%) right;
   background-size: 200%;
   cursor: pointer;
+  transition: 1s;
 }
 
-.main-info__tickets-button:hover, .main-info__tickets-button:hover .main-info__arrow-right {
+.main-info__tickets-button:hover {
   background-position: left;
   color: #ECEBE8;
+  transition: 0.8s;
+}
+
+.main-info__tickets-button:hover .main-info__arrow-right {
+  background-position: right;
   fill: #ECEBE8;
-  transition: 0.3s;
+  transition: 1s cubic-bezier(.72, .20, .16, 1);
+  -webkit-transition: all 1s cubic-bezier(.72, .20, .16, 1);
+  -moz-transition: all 1s cubic-bezier(.72, .20, .16, 1);
 }
