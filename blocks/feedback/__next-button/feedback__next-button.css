@@ -1,24 +1,3 @@
-@keyframes arrowClick {
-  from {
-    transform: scale(1.0);
-  }
-
-  to {
-    transform: scale(1.1);
-  }
-}
-
-@keyframes arrowRightRotate {
-  from {
-    clip: rect(48px, 24px, 48px, 0px);
-    ;
-  }
-
-  to {
-    clip: rect(0px, 24px, 48px, 0px);
-  }
-}
-
 .feedback__next-button {
   width: 50px;
   min-width: 50px;
@@ -90,8 +69,4 @@
   .feedback__next-button:active::before {
     animation: none;
   }
-}
-
-.feedback__next-button:hover:after {
-  animation: arrowRightRotate .2s ease-out;
 }
