@@ -7,3 +7,8 @@
   opacity: .4;
 }
 
+@media screen and (max-width: 400px) {
+  .reviews__slide {
+    max-height: 1044px;
+  }
+}
