@@ -1,8 +1,8 @@
 .header__menu {
   display: flex;
   justify-content: space-around;
-  width: 902px;
   width: 100%;
+  padding: 0 11px;
 }
 
 @media screen and (max-width: 900px) {
