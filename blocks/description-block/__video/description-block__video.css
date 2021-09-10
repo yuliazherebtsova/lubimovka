@@ -1,14 +1,34 @@
 .description-block__video {
-  margin-bottom: 44px;
+  /*
   padding: 0;
   width: 691px;
   height: 389px;
+  border: none;*/
+  width: 691px;
+  height: 389px;
+  margin: 0 0 44px 0;
+  padding: 0;
   border: none;
 }
 
 @media screen and (max-width: 1280px) {
   .description-block__video {
-    max-width: 100%;
-    margin-bottom: 0;
+    max-width: 500px;
+    max-height: 263px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .description-block__video {
+    margin: 0;
+    max-width: 400px;
+    max-height: 210px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .description-block__video {
+    max-width: 270px;
+    max-height: 152px;
   }
 }
