@@ -1,0 +1,50 @@
+@keyframes slider-nav-button-animation {
+  from {
+    fill: #ECEBE8;
+  }
+
+  20% {
+    fill: #242424;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes reviews-button-animation {
+
+  0% {
+    content: '';
+    background-color: transparent;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 5px solid #242424;
+    transform: scale(0.9, 0.9);
+    width: auto;
+    height: auto;
+  }
+
+  100% {
+    content: '';
+    background-color: transparent;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 5px solid #242424;
+    transform: scale(1.15, 1.15);
+    width: auto;
+    height: auto;
+    outline: none;
+  }
+
+}

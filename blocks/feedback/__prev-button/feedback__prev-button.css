@@ -1,88 +1,73 @@
-@keyframes arrowClick {
-  from {
-      transform: scale(1.0);
-  }
-  to {
-      transform: scale(1.1);
-  }
-}
-
-@keyframes arrowLeftRotate {
-  from {
-      clip: rect(0px, 48px, 24px, 48px);
-  }
-  to {
-      clip: rect(0px, 48px, 24px, 0px)
-  }
-}
-
 .feedback__prev-button {
-  background-color: transparent;
-  border: none;
-  border-radius: 48px;
-  background-repeat: no-repeat;
-  width: 48px;
-  height: 48px;
-  background-position: center center;
-  margin: 4px 23px 0 0;
-  padding: 0;
+  width: 50px;
+  min-width: 50px;
+  height: 50px;
   position: relative;
-  cursor: pointer;
-  transition: all .2s ease-out .15s;
-  flex-shrink: 0;
-  background-image: url('../../../images/arrow-left.svg');
-}
-
-@media screen and (max-width: 520px) {
-  .feedback__prev-button {
-      margin: 5px 3px 0 21px;
-  }
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+  background-image: url(../../../images/links__arrow.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: rotate(180deg);
 }
 
 .feedback__prev-button:before {
-  content: '';
   position: absolute;
   top: 0;
-  right: 0;
-  width: 48px;
-  height: 48px;
-  border: 1px solid black;
-  border-radius: 48px;
-  box-sizing: border-box;
-  transition: border-color .2s ease-out .2s;
-  clip: rect(0px, 48px, 24px, 0px);
-  transform: rotate(-90deg);
-  transition: border-color .2s ease-out .2s;
-}
-
-.feedback__prev-button:hover:before {
-  border-color: white;
-}
-
-.feedback__prev-button:after {
+  left: 25px;
+  display: block;
   content: '';
+  border: 1px solid #242424;
+  border-left: none;
+  border-radius: 50px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  background-color: transparent;
+  width: 24px;
+  height: 48px;
+}
+
+.feedback__prev-button::after {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 48px;
+  left: 25px;
+  display: block;
+  content: '';
+  border: 1px solid #242424;
+  border-left: none;
+  border-radius: 50px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  background-color: transparent;
+  width: 24px;
   height: 48px;
-  border: 1px solid black;
-  border-radius: 48px;
-  box-sizing: border-box;
-  transition: clip 2s ease-out;
-  clip: rect(0px, 48px, 24px, 48px);
-  transform: rotate(90deg);
+  transform-origin: center left;
 }
 
 .feedback__prev-button:hover {
-  background-color: white;
-  filter: invert(1);
+  background-color: #dbdbdb;
+  filter: invert(100%);
+  transition: filter 0.18s 0.1s ease-out, background-color 0.18s 0.1s ease-out;
 }
 
-.feedback__prev-button:hover:after {
-  animation: .2s ease-out arrowLeftRotate;
+.feedback__prev-button:hover::before {
+  filter: invert(100%);
+  transition: filter 0.18s 0.1s ease-out;
 }
 
-.feedback__prev-button:active {
-  animation: .2s ease-in 2 alternate arrowClick;
+.feedback__prev-button:hover::after {
+  transform: rotate(-180deg);
+  filter: invert(100%);
+  transition: transform 0.18s, filter 0.18s 0.1s ease-out;
+}
+
+.feedback__prev-button:active::before {
+  animation: reviews-button-animation 0.3s forwards;
+}
+
+@media screen and (max-width: 1024px) {
+  .feedback__prev-button:active::before {
+    animation: none;
+  }
 }
