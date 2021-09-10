@@ -9,6 +9,7 @@
   background-image: url(../../../images/links__arrow.svg);
   background-position: center;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .reviews__next-button:before {
