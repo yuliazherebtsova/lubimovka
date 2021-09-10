@@ -14,7 +14,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 414px) {
   .feedback__prev-button {
     margin-right: 0;
   }
