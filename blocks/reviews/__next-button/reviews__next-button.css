@@ -1,84 +1,95 @@
 @keyframes arrowClick {
   from {
-      transform: scale(1.0);
+    transform: scale(1.0);
   }
+
   to {
-      transform: scale(1.1);
+    transform: scale(1.1);
   }
 }
 
 @keyframes arrowRightRotate {
   from {
-      clip: rect(48px, 24px, 48px, 0px);;
+    clip: rect(48px, 24px, 48px, 0px);
+    ;
   }
+
   to {
-      clip: rect(0px, 24px, 48px, 0px);
+    clip: rect(0px, 24px, 48px, 0px);
   }
 }
 
 .reviews__next-button {
-  background-color: transparent;
-  border: none;
-  border-radius: 48px;
-  background-repeat: no-repeat;
-  width: 48px;
-  height: 48px;
-  background-position: center center;
-  margin: 4px 23px 0 0;
-  padding: 0;
+  width: 50px;
+  min-width: 50px;
+  height: 50px;
   position: relative;
-  cursor: pointer;
-  transition: all .2s ease-out .15s;
-  flex-shrink: 0;
-  background-image: url('../../../images/arrow-right.svg');
-}
-
-@media screen and (max-width: 520px) {
-  .reviews__next-button {
-      margin: 5px 3px 0 21px;
-  }
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+  background-image: url(../../../images/links__arrow.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .reviews__next-button:before {
-  content: '';
   position: absolute;
   top: 0;
-  right: 0;
-  width: 48px;
-  height: 48px;
-  border: 1px solid black;
-  border-radius: 48px;
-  box-sizing: border-box;
-  transition: border-color .2s ease-out .2s;
-  clip: rect(24px, 48px, 48px, 0px);
-    transform: rotate(-90deg);
-}
-
-.reviews__next-button:hover:before {
-  border-color: white;
-}
-
-.reviews__next-button:after {
+  left: 25px;
+  display: block;
   content: '';
+  border: 1px solid #242424;
+  border-left: none;
+  border-radius: 50px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  background-color: transparent;
+  width: 24px;
+  height: 48px;
+}
+
+.reviews__next-button::after {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 48px;
+  left: 25px;
+  display: block;
+  content: '';
+  border: 1px solid #242424;
+  border-left: none;
+  border-radius: 50px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  background-color: transparent;
+  width: 24px;
   height: 48px;
-  border: 1px solid black;
-  border-radius: 48px;
-  box-sizing: border-box;
-  transition: clip 2s ease-out;
-  clip: rect(48px, 24px, 48px, 0px);
+  transform-origin: center left;
 }
 
 .reviews__next-button:hover {
-  background-color: white;
-  filter: invert(1);
+  background-color: #dbdbdb;
+  filter: invert(100%);
+  transition: filter 0.18s 0.1s ease-out, background-color 0.18s 0.1s ease-out;
 }
 
-.reviews__next-button:active {
-  animation: .2s ease-in 2 alternate arrowClick;
+.reviews__next-button:hover::before {
+  filter: invert(100%);
+  transition: filter 0.18s 0.1s ease-out;
+}
+
+.reviews__next-button:hover::after {
+  transform: rotate(180deg);
+  filter: invert(100%);
+  transition: transform 0.18s, filter 0.18s 0.1s ease-out;
+}
+
+.reviews__next-button:active::before {
+  animation: reviews-button-animation 0.3s forwards;
+}
+
+@media screen and (max-width: 1024px) {
+  .reviews__next-button:active::before {
+    animation: none;
+  }
 }
 
 .reviews__next-button:hover:after {

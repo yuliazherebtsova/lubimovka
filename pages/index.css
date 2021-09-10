@@ -105,7 +105,6 @@
 @import url(../blocks/reviews/__pagination/reviews__pagination.css);
 @import url(../blocks/reviews/__bullet/reviews__bullet.css);
 @import url(../blocks/reviews/__bullet/_type/reviews__bullet_type_active.css);
-@import url(../blocks/reviews/__icon/reviews__icon.css);
 @import url(../blocks/reviews/__icon-arrow/reviews__icon-arrow.css);
 /* reviews */
 
@@ -161,5 +160,5 @@
 @import url(../blocks/footer/__copyright-text/_type/footer__copyright-text_type_wide.css);
 /* footer */
 
-@import url(../blocks/slider-nav-button-animation/slider-nav-button-animation.css);
+@import url(../blocks/buttons-animation/buttons-animation.css);
 /* slider-nav-button-animation */
