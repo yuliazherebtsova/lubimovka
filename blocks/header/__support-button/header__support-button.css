@@ -23,7 +23,13 @@
 .header__support-button:hover {
   background-position: left;
   color: #ECEBE8;
+  transition: 0.8s;
+}
+
+.header__support-button:hover .header__plus {
+  background-position: right;
   fill: #ECEBE8;
+  transition: 0.4s;
 }
 
 @media screen and (max-width: 1025px) {
@@ -45,8 +51,4 @@
   .header__support-button {
     font-size: 17px;
   }
-}
-
-.header__support-button:hover .header__plus {
-  filter: invert(100%);
 }

@@ -1,8 +1,6 @@
 .links__link {
-  max-width: 53px;
   max-height: 26px;
   cursor: pointer;
-  max-width: max-content;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,11 +11,27 @@
   background: transparent;
   background: linear-gradient(to left, transparent 50%, #242424 50%) right;
   background-size: 200%;
-  transition: .8s;
+  transition: .8s ease;
 }
 
-.links__link:hover, .links__link:hover .links__text, .links__link:hover .links__arrow {
+.links__link:hover {
   background-position: left;
   color: #ECEBE8;
   fill: #ECEBE8;
+}
+
+.links__link:hover .links__text {
+  background-position: left;
+  color: #ECEBE8;
+  transition: 1s cubic-bezier(0, 1, .59, .84);
+  -webkit-transition: all 1s cubic-bezier(0, 1, .59, .84);
+  -moz-transition: all 1s cubic-bezier(0, 1, .59, .84);
+}
+
+.links__link:hover .links__arrow {
+  background-position: left;
+  fill: #ECEBE8;
+  transition: 1s cubic-bezier(0, 1, .59, .84);
+  -webkit-transition: all 1s cubic-bezier(0, 1, .59, .84);
+  -moz-transition: all 1s cubic-bezier(0, 1, .59, .84);
 }
