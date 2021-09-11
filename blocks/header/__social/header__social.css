@@ -2,18 +2,19 @@
   display: flex;
   justify-content: space-around;
   max-width: 257px;
-  width: 100%;
-  padding: 0 25px;
   align-items: center;
   border-left: 1px solid #232323;
   border-right: 1px solid #232323;
   height: 100%;
   box-sizing: border-box;
+  gap: 16px;
+  padding: 0 26px 0 24px;
 }
 
-@media screen and (max-width: 1238px) {
+@media screen and (max-width: 1439px) {
   .header__social {
-    padding: 12px;
+    padding: 0 16px 0 16px;
+    gap: 8px;
   }
 }
 
