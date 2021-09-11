@@ -1,8 +1,18 @@
 .header__menu {
   display: flex;
-  justify-content: space-around;
-  width: 100%;
-  padding: 0 11px;
+  justify-content: space-between;
+  max-width: 946px;
+  gap: 44px;
+  padding-left: 43px;
+  padding-right: 39px;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__menu {
+    gap: 12px;
+    padding-left: 13px;
+    padding-right: 9px;
+  }
 }
 
 @media screen and (max-width: 900px) {
