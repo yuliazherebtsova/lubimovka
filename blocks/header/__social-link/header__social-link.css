@@ -8,6 +8,7 @@
   line-height: 18px;
   text-decoration: none;
   color: #232323;
+  padding: 0 5.4px;
 }
 
 .header__social-link:hover:before {
@@ -40,6 +41,7 @@
   background-color: transparent;
   width: 8px;
   height: 100%;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1279px) {
