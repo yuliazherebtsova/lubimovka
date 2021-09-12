@@ -8,6 +8,7 @@
   line-height: 1.5;
   text-decoration: none;
   color: #242424;
+  padding: 0 8px;
 }
 
 .header__link:hover:before {
