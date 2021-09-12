@@ -10,7 +10,6 @@
 
 @media screen and (max-width: 900px) {
   .logo_place_footer{
-    margin-left: 0px;
-    margin-bottom: 33px;
+    display: none;
   }
 }
