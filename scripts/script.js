@@ -83,11 +83,6 @@ const swiperReviews = new Swiper('.reviews__container', {
 
   autoHeight: false,
   // Автовысота по размеру слайда
-
-  observer: true,
-  observeSlideChildren: true,
-  observeSlideParents: true,
-  // Параметры наблюдения за изменением контейнеров слайдера
 });
 
 const swiperFeedback = new Swiper('.feedback__container', {
