@@ -3,11 +3,11 @@
   display: grid;
   grid-template-columns: 210px max-content 1fr;
   grid-template-rows: min-content min-content min-content;
-
+  
 }
 
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1291px) {
   .footer{
     grid-template-columns: minmax(155px, max-content) minmax(200px, max-content) minmax(min-content, max-content);
     padding: 10px;

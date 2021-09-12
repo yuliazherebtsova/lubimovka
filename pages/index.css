@@ -9,6 +9,7 @@
 
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
+@import url(../blocks/logo/_place/logo_place_footer-mobile.css);
 /* logo */
 
 @import url(../blocks/content/content.css);
