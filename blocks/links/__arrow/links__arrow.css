@@ -1,6 +1,12 @@
 .links__arrow {
-  background: transparent;
+  max-width: 24px;
   transition: 0.3s cubic-bezier(.96, -0, 1, 1);
   -webkit-transition: all 0.3s cubic-bezier(.96, -0, 1, 1);
   -moz-transition: all 0.3s cubic-bezier(.96, -0, 1, 1);
+}
+
+@media (max-width: 900px) {
+  .links__arrow {
+    max-width: 21px;
+  }
 }

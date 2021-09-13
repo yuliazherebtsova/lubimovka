@@ -1,23 +1,27 @@
 .links__link {
-  max-height: 26px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: transparent;
+  margin-right: 8px;
   border-left: 1px solid #242424;
   border-bottom: 1px solid #242424;
-  text-decoration: none;
-  color: #242424;
-  background: transparent;
   background: linear-gradient(to left, transparent 50%, #242424 50%) right;
-  background-size: 200%;
+  background-size: 300%;
   transition: .8s ease;
+}
+
+.links__link:last-child {
+  margin-right: 0;
+  max-width: 62px;
+}
+
+@media (max-width: 900px) {
+  .links__link {
+    margin-right: 9px;
+  }
 }
 
 .links__link:hover {
   background-position: left;
   color: #ECEBE8;
-  fill: #ECEBE8;
 }
 
 .links__link:hover .links__text {

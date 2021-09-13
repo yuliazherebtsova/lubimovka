@@ -1,10 +1,13 @@
 .links__container {
-  max-width: max-content;
+  text-decoration: none;
   max-height: 26px;
-  margin-right: 8px;
-  position: relative;
+  max-width: 53px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .links__container:last-child {
-  margin-right: 0;
+  max-width: 62px;
 }
