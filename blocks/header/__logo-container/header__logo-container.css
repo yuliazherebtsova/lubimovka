@@ -1,3 +1,9 @@
-.header__logo-container{
+.header__logo-container {
   display: flex;
+}
+
+@media screen and (max-width: 900px) {
+  .header__logo-container {
+    gap: 19px;
+  }
 }
