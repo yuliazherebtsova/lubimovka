@@ -10,6 +10,7 @@
 
 @media screen and (max-width: 1439px) {
   .header__menu {
+    flex-grow: 1;
     gap: 12px;
     padding-left: 13px;
     padding-right: 9px;
@@ -20,6 +21,7 @@
   .header__menu {
     gap: 5px;
     padding-left: 8px;
+    width: auto;
   }
 }
 
