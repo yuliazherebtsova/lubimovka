@@ -45,7 +45,7 @@
   }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1080px) {
   .header__support-button {
     font-size: 10px;
     flex-basis: 120px;

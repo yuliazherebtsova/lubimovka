@@ -1,6 +1,5 @@
 .description-block__text {
   margin: 20px 0;
-  max-width: 602px;
   font-family: 'FormularLight', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -9,6 +8,13 @@
   letter-spacing: -0.01em;
   font-feature-settings: 'ss01' on;
 }
+
 .description-block__text:last-child {
   margin: 0;
+}
+
+@media screen and (max-width: 413px) {
+  .description-block__text {
+    font-size: 15px;
+  }
 }

@@ -36,6 +36,7 @@
 @import url(../blocks/header/__support-button/header__support-button.css);
 @import url(../blocks/header/__support-button/_hidden/header__support-button_hidden.css);
 @import url(../blocks/header/__plus/header__plus.css);
+@import url(../blocks/header/__plus-decoration/header__plus-decoration.css);
 /* header */
 
 @import url(../blocks/main-info/main-info.css);

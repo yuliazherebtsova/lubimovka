@@ -52,6 +52,7 @@
 @media screen and (max-width: 1023px) {
   .header__link {
     font-size: 12px;
+    padding: 0 3px;
   }
 }
 
@@ -63,7 +64,6 @@
     cursor: pointer;
     transition: all 0.5s ease-in-out;
   }
-
   .header__link:hover {
     background-color: #232323;
     color: white;
