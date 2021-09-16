@@ -1,0 +1,12 @@
+.buttons-reaction {
+  box-shadow: 0 0 0 0;
+  transition: 0s;
+}
+
+.buttons-reaction:focus, .buttons-reaction:active {
+  color: #ECEBE8;
+  fill: #ECEBE8;
+  box-shadow: 0 0 0 4px #242424;
+  outline: 0;
+  transition: 0s;
+}
