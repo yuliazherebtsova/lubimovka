@@ -38,7 +38,7 @@
 
 @media screen and (max-width: 1439px) {
   .header__support-button {
-    flex-basis: 200px;
+    flex-basis: 225px;
     padding-left: 0;
     padding-right: 0;
     gap: 0;
