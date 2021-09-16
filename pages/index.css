@@ -93,6 +93,7 @@
 @import url(../blocks/card/__image/card__image.css);
 @import url(../blocks/card/__author/card__author.css);
 @import url(../blocks/card/__readmore/card__readmore.css);
+@import url(../blocks/card/__readmore-arrow/card__readmore-arrow.css);
 /* card */
 
 @import url(../blocks/reviews/__header/reviews__header.css);
@@ -166,3 +167,6 @@
 
 @import url(../blocks/buttons-animation/buttons-animation.css);
 /* slider-nav-button-animation */
+
+@import url(../blocks/buttons-reaction/buttons-reaction.css);
+/*box-shad*/
