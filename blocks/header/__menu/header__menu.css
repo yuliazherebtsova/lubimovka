@@ -2,10 +2,16 @@
   display: flex;
   justify-content: space-between;
   max-width: 946px;
+  padding: 0 31px 0 35px;
+  /* сверху | справа | снизу | слева */
+  /*
   padding-left: 35px;
   padding-right: 31px;
+  */
   gap: 28px;
   box-sizing: border-box;
+  list-style: none;
+  margin: 0;
 }
 
 @media screen and (max-width: 1439px) {
