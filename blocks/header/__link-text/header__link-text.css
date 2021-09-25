@@ -1,0 +1,51 @@
+.header__link-text {
+  text-decoration: none;
+  color: #242424;
+  display: block;
+  padding: 0 0 8px 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+  .header__link-text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header__link-text {
+    font-size: 12px;
+    padding: 0 0 3px 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header__link-text {
+    padding-bottom: 20px;
+    font-size: 40px;
+    line-height: 1;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+  .header__link-text:hover {
+    padding: 0 0 20px 0;
+    color: white;
+    background-color: #232323;
+    border: none;
+    border-radius: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__link-text {
+    padding-bottom: 15px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .header__link-text {
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+}
