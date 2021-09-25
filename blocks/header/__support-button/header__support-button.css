@@ -38,15 +38,16 @@
 
 @media screen and (max-width: 1439px) {
   .header__support-button {
-    flex-basis: fit-content;
+    flex-basis: auto;
     padding-left: 0;
     padding-right: 0;
     gap: 0;
   }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1120px) {
   .header__support-button {
+    flex-basis: 124px;
     font-size: 10px;
   }
 }
