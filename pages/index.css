@@ -27,7 +27,6 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/header/__link-text/header__link-text.css);
 @import url(../blocks/header/__social/header__social.css);
 @import url(../blocks/header/__social-decor/header__social-decor.css);
 @import url(../blocks/header/__social-link/header__social-link.css);
@@ -39,6 +38,9 @@
 @import url(../blocks/header/__support-button/_hidden/header__support-button_hidden.css);
 @import url(../blocks/header/__plus/header__plus.css);
 @import url(../blocks/header/__plus-decoration/header__plus-decoration.css);
+@import url(../blocks/header/__menu-decor/header__menu-decor.css);
+@import url(../blocks/header/__layout-decor/header__layout-decor.css);
+@import url(../blocks/header/__link-mob-text/header__link-mob-text.css);
 /* header */
 
 @import url(../blocks/main-info/main-info.css);

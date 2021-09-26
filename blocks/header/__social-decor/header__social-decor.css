@@ -1,22 +1,17 @@
 .header__social-decor {
-  border-left: 1px solid #232323;
-  border-right: 1px solid #232323;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   height: 100%;
   box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  max-width: 257px;
-  padding: 0 26px 0 24px;
+  gap: 5.4px;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1439px) {
   .header__social-decor {
-    padding: 0 3px 0 3px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .header__social-decor {
-    display: none;
+    gap: 0;
   }
 }

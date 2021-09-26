@@ -1,0 +1,20 @@
+.header__menu-decor {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__menu-decor {
+    gap: 12px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .header__menu-decor {
+    gap: 5px;
+  }
+}
