@@ -1,0 +1,9 @@
+.links__arrow-feature {
+  max-width: 24px;
+}
+
+@media (max-width: 900px) {
+  .links__arrow-feature {
+    max-width: 21px;
+  }
+}

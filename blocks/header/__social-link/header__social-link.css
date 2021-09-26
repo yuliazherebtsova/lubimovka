@@ -1,4 +1,6 @@
 .header__social-link {
+  position: relative;
+  display: block;
   font-family: 'FormularLight', 'Arial', sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -6,11 +8,51 @@
   line-height: 18px;
   text-decoration: none;
   color: #232323;
+  padding: 0 5.4px;
 }
 
-@media screen and (max-width: 1025px) {
+.header__social-link:hover:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  content: '';
+  border: 1px solid #242424;
+  border-left: none;
+  border-radius: 50px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  background-color: transparent;
+  width: 8px;
+  height: 100%;
+}
+
+.header__social-link:hover:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  content: '';
+  border: 1px solid #242424;
+  border-right: none;
+  border-radius: 50px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  background-color: transparent;
+  width: 8px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1279px) {
   .header__social-link {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header__social-link {
+    font-size: 12px;
   }
 }
 

@@ -1,11 +1,27 @@
-.header__menu{
-  display: flex;
-  justify-content: space-around;
-  width: 902px;
+.header__menu {
+  max-width: 946px;
+  padding-left: 35px;
+  padding-right: 31px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__menu {
+    flex-grow: 1;
+    padding-left: 13px;
+    padding-right: 9px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .header__menu {
+    padding-left: 8px;
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 900px) {
-  .header__menu{
+  .header__menu {
     display: none;
   }
 }

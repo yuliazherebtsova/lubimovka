@@ -27,42 +27,55 @@
       </button>
     </div>
     <nav class="header__menu">
-      <a href="#" class="header__link" target="_blank">Афиша</a>
-      <a href="#" class="header__link" target="_blank">Библиотека</a>
-      <a href="#" class="header__link" target="_blank">Проекты</a>
-      <a href="#" class="header__link" target="_blank">История</a>
-      <a href="#" class="header__link" target="_blank">Блог</a>
-      <a href="#" class="header__link" target="_blank">Новости</a>
-      <a href="#" class="header__link" target="_blank">О фестивале</a>
-      <a href="#" class="header__link" target="_blank">Контакты</a>
+      <ul class="header__menu-decor">
+        <li><a href="#" class="header__link" target="_blank">Афиша</a></li>
+        <li><a href="#" class="header__link" target="_blank">Библиотека</a></li>
+        <li><a href="#" class="header__link" target="_blank">Проекты</a></li>
+        <li><a href="#" class="header__link" target="_blank">История</a></li>
+        <li><a href="#" class="header__link" target="_blank">Блог</a></li>
+        <li><a href="#" class="header__link" target="_blank">Новости</a></li>
+        <li><a href="#" class="header__link" target="_blank">О фестивале</a></li>
+        <li><a href="#" class="header__link" target="_blank">Контакты</a></li>
+      </ul>
     </nav>
-    <div class="header__social">
-      <a href="#" class="header__social-link" target="_blank">fb</a>
-      <a href="#" class="header__social-link" target="_blank">inst</a>
-      <a href="#" class="header__social-link" target="_blank">ytube</a>
-      <a href="#" class="header__social-link" target="_blank">tlgrm</a>
-      <a href="#" class="header__social-link" target="_blank">vk</a>
-    </div>
+    <nav class="header__social">
+      <ul class="header__social-decor">
+        <li><a href="https://www.facebook.com/festival.lubimovka/" class="header__social-link" target="_blank">fb</a>
+        </li>
+        <li><a href="https://www.instagram.com/lubimovka/" class="header__social-link" target="_blank">inst</a></li>
+        <li><a href="https://www.youtube.com/channel/UCDZ1HTzBVBxm_vw6tV7C3lg" class="header__social-link"
+            target="_blank">ytube</a></li>
+        <li><a href="https://t.me/lubimovka" class="header__social-link" target="_blank">tlgrm</a></li>
+        <li><a href="https://vk.com/festival.lubimovka" class="header__social-link" target="_blank">vk</a></li>
+      </ul>
+    </nav>
     <button type="button" class="header__support-button header__support-button_hidden">
-      <img src="./images/plus.svg" class="header__plus" alt="Иконка плюса"> поддержать
+      <svg class="header__plus-decoration" width="25" height="25" viewBox="0 0 25 25" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <rect class="header__plus" x="12" y="6" width="1" height="13" fill="#242424" />
+        <rect class="header__plus" x="19" y="12" width="1" height="13" transform="rotate(90 19 12)" fill="#242424" />
+      </svg>
+      поддержать
     </button>
     <img src="./images/burger.svg" class="header__burger" alt="меню">
-    <div class="header__mobile">
+    <nav class="header__mobile">
       <nav class="header__layout">
-        <a href="#" class="header__link" target="_blank">Афиша</a>
-        <a href="#" class="header__link" target="_blank">Библиотека</a>
-        <a href="#" class="header__link" target="_blank">Проекты</a>
-        <a href="#" class="header__link" target="_blank">История</a>
-        <a href="#" class="header__link" target="_blank">Блог</a>
-        <a href="#" class="header__link" target="_blank">Новости</a>
-        <a href="#" class="header__link" target="_blank">О фестивале</a>
-        <a href="#" class="header__link" target="_blank">Контакты</a>
+        <ul class="header__layout-decor">
+          <li class="header__link"><a href="#" class="header__link-mob-text" target="_blank">Афиша</a></li>
+          <li class="header__link"><a href="#" class="header__link-mob-text" target="_blank">Библиотека</a></li>
+          <li class="header__link"><a href="#" class="header__link-mob-text" target="_blank">Проекты</a></li>
+          <li class="header__link"><a href="#" class="header__link-mob-text" target="_blank">История</a></li>
+          <li class="header__link"><a href="#" class="header__link-mob-text" target="_blank">Блог</a></li>
+          <li class="header__link"><a href="#" class="header__link-mob-text" target="_blank">Новости</a></li>
+          <li class="header__link"><a href="#" class="header__link-mob-text" target="_blank">О фестивале</a></li>
+          <li class="header__link"><a href="#" class="header__link-mob-text" target="_blank">Контакты</a></li>
+        </ul>
       </nav>
-    </div>
+    </nav>
   </header>
   <main class="content">
     <section class="main-info content__section">
-      <button class="button main-info__arrow-left" type="button">Проекты
+      <button class="button" type="button">Проекты
         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path class="main-info__arrow-left" fill-rule="evenodd" clip-rule="evenodd"
             d="M4 12.5234L4.72483 11.7986L10.5234 6L11.2263 6.70287L5.90563 12.0235L25 12.0235L25 13.0235L5.94976 13.0235L11.2014 18.2752L10.4766 19L4.70287 13.2263L4 12.5234Z"
@@ -144,10 +157,21 @@
           <div class="description-block__card-content">
             <p class="description-block__card-name">С_училища</p>
             <div class="description-block__btn-group">
-              <button class="description-block__card-watch" type="button">СМОТРЕТЬ ЧИТКУ <img
-                  src="images/icon/arrow-45.png" alt="Стрелка вверх"></button>
-              <button class="description-block__card-download" type="button">СКАЧАТЬ ПЬЕСУ <img
-                  src="images/icon/arrow-down.png" alt="Стрелка вниз"></button>
+              <button class="description-block__card-watch" type="button">СМОТРЕТЬ ЧИТКУ
+                <svg class="description-block__arrow" width="25" height="25" viewBox="0 0 25 25" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path class="description-block__arrow" fill-rule="evenodd" clip-rule="evenodd"
+                    d="M19.9084 5.05887L19.9084 6.08393L19.9084 14.2844L18.9144 14.2844L18.9144 6.75983L5.41259 20.2616L4.70549 19.5545L18.176 6.08393L10.7491 6.08393L10.7491 5.05887L18.9144 5.05887L19.9084 5.05887Z"
+                    fill="#242424" />
+                </svg>
+              </button>
+              <button class="description-block__card-download" type="button">СКАЧАТЬ ПЬЕСУ
+                <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path class="description-block__arrow" fill-rule="evenodd" clip-rule="evenodd"
+                    d="M12.5234 21L11.7986 20.2752L6 14.4766L6.70287 13.7737L12.0235 19.0944L12.0235 3.05176e-05H13.0235L13.0235 19.0503L18.2752 13.7986L19 14.5235L13.2263 20.2972L12.5234 21Z"
+                    fill="#242424" />
+                </svg>
+              </button>
             </div>
           </div>
           <p class="description-block__author-name">Андрей Иванов</p>
@@ -156,32 +180,35 @@
         </div>
       </div>
     </section>
+    <!-- ******************************************************************** -->
+    <!-- *****************************ФОТОГАЛЕРЕЯ**************************** -->
+    <!-- ******************************************************************** -->
     <section class="gallery content__section content__section_place_gallery">
       <h2 class="gallery__title">Заголовок блока с&nbsp;фотографиями</h2>
       <ul class="gallery__items">
         <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item1.png" alt="2 человека на сцене">
+          <img class="gallery__image" src="./images/gallery__item1.jpg" alt="2 человека на сцене">
         </li>
         <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item2.png" alt="Актриса">
+          <img class="gallery__image" src="./images/gallery__item2.jpg" alt="Актриса">
         </li>
         <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item3.png" alt="Актер">
+          <img class="gallery__image" src="./images/gallery__item3.jpg" alt="Актер">
         </li>
         <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item4.png" alt="Музыкальная группа">
+          <img class="gallery__image" src="./images/gallery__item4.jpg" alt="Музыкальная группа">
         </li>
         <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item5.png" alt="Собрание">
+          <img class="gallery__image" src="./images/gallery__item5.jpg" alt="Собрание">
         </li>
         <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item6.png" alt="Девушка">
+          <img class="gallery__image" src="./images/gallery__item6.jpg" alt="Девушка">
         </li>
         <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item7.png" alt="Люди на репетиции">
+          <img class="gallery__image" src="./images/gallery__item7.jpg" alt="Люди на репетиции">
         </li>
         <li class="gallery__item">
-          <img class="gallery__image" src="./images/gallery__item8.png" alt="девушка">
+          <img class="gallery__image" src="./images/gallery__item8.jpg" alt="девушка">
         </li>
       </ul>
     </section>
@@ -190,19 +217,8 @@
         <h2 class="reviews__title">Рецензии</h2>
         <div class="reviews__pagination"></div>
         <button class="reviews__prev-button" type="button" aria-label="Предыдущий слайд">
-          <svg class="reviews__icon">
-            <circle cx="26" cy="26" r="24" class="reviews__icon" />
-            <path
-              d="M15 24.4766L15.7248 25.2014L21.5234 31L22.2263 30.2971L16.9056 24.9765L36 24.9765L36 23.9765L16.9498 23.9765L22.2014 18.7248L21.4766 18L15.7029 23.7737L15 24.4766Z"
-              class="reviews__icon-arrow" />
-          </svg>
         </button>
         <button class="reviews__next-button" type="button" aria-label="Следующий слайд">
-          <svg class="reviews__icon">
-            <circle cx="26" cy="26" r="24" class="reviews__icon" />
-            <path d="M35 24.4766L34.2752 25.2014L28.4766 31L27.7737 30.2971L33.0944 24.9765L14 24.9765L14 23.9765L33.0502 23.9765L27.7986
-            18.7248L28.5234 18L34.2971 23.7737L35 24.4766Z" class="reviews__icon-arrow" />
-          </svg>
         </button>
       </div>
       <!-- Главный контейнер слайдера -->
@@ -218,19 +234,8 @@
         <h2 class="feedback__title">Отзывы зрителей</h2>
         <div class="feedback__pagination"></div>
         <button class="feedback__prev-button" type="button" aria-label="Предыдущий слайд">
-          <svg class="feedback__icon">
-            <circle cx="26" cy="26" r="24" class="feedback__icon" />
-            <path
-              d="M15 24.4766L15.7248 25.2014L21.5234 31L22.2263 30.2971L16.9056 24.9765L36 24.9765L36 23.9765L16.9498 23.9765L22.2014 18.7248L21.4766 18L15.7029 23.7737L15 24.4766Z"
-              class="feedback__icon-arrow" />
-          </svg>
         </button>
         <button class="feedback__next-button" type="button" aria-label="Следующий слайд">
-          <svg class="feedback__icon">
-            <circle cx="26" cy="26" r="24" class="feedback__icon" />
-            <path d="M35 24.4766L34.2752 25.2014L28.4766 31L27.7737 30.2971L33.0944 24.9765L14 24.9765L14 23.9765L33.0502 23.9765L27.7986
-              18.7248L28.5234 18L34.2971 23.7737L35 24.4766Z" class="feedback__icon-arrow" />
-          </svg>
         </button>
       </div>
       <!-- Главный контейнер слайдера -->
@@ -249,9 +254,9 @@
       <p class="links__subtitle">Рассказать</p>
       <p class="links__subtitle">о спектакле в&nbsp;соцсетях</p>
       <div class="links__buttons">
-        <div class="links__container">
-          <a class="links__link" href="#">
-            <svg class="links__arrow" width="25" height="25" viewBox="0 0 25 25" fill="none"
+        <div class="links__link">
+          <a class="links__container" href="#">
+            <svg class="links__arrow-feature" width="25" height="25" viewBox="0 0 25 25" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path class="links__arrow" fill-rule="evenodd" clip-rule="evenodd"
                 d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"
@@ -260,9 +265,9 @@
             <p class="links__text">fb</p>
           </a>
         </div>
-        <div class="links__container">
-          <a class="links__link" href="#">
-            <svg class="links__arrow" width="25" height="25" viewBox="0 0 25 25" fill="none"
+        <div class="links__link">
+          <a class="links__container" href="#">
+            <svg class="links__arrow-feature" width="25" height="25" viewBox="0 0 25 25" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path class="links__arrow" fill-rule="evenodd" clip-rule="evenodd"
                 d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"
@@ -270,10 +275,11 @@
             </svg>
             <p class="links__text">vk</p>
           </a>
+
         </div>
-        <div class="links__container">
-          <a class="links__link" href="#">
-            <svg class="links__arrow" width="25" height="25" viewBox="0 0 25 25" fill="none"
+        <div class="links__link">
+          <a class="links__container" href="#">
+            <svg class="links__arrow-feature" width="25" height="25" viewBox="0 0 25 25" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path class="links__arrow" fill-rule="evenodd" clip-rule="evenodd"
                 d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"
@@ -281,30 +287,34 @@
             </svg>
             <p class="links__text">twtr</p>
           </a>
+
         </div>
+
+
       </div>
     </section>
   </main>
+
   <footer class="footer page__section page__section_place_footer">
-    <img class="footer__logo" src="./images/footer__logo.svg" alt="Логотип">
+    <div class="logo logo_place_footer"></div>
     <div class="footer__partners">
       <p class="footer__text">Генеральные партнеры</p>
       <ul class="footer__partners-logos">
         <li class="footer__partners-logo">
-          <a href="#" target="_blank"><img class="footer__logo-image" src="./images/footer__partner1.png"
-              alt="Лого фонда Михаила Прохорова"></a>
+          <a href="http://prokhorovfund.ru/fund/structure/executive/moscow/" target="_blank"><img
+              class="footer__logo-image" src="./images/footer__partner1.png" alt="Лого фонда Михаила Прохорова"></a>
         </li>
         <li class="footer__partners-logo">
-          <a href="#" target="_blank"><img class="footer__logo-image" src="./images/footer__partner2.png"
-              alt="Лого MOSBREW"></a>
+          <a href="https://www.brewhouse.pro/" target="_blank"><img class="footer__logo-image"
+              src="./images/footer__partner2.png" alt="Лого MOSBREW"></a>
         </li>
         <li class="footer__partners-logo">
-          <a href="#" target="_blank"><img class="footer__logo-image" src="./images/footer__partner3.png"
+          <a href="http://sbtg.ru/" target="_blank"><img class="footer__logo-image" src="./images/footer__partner3.png"
               alt="Лого SBTG.ru"></a>
         </li>
         <li class="footer__partners-logo">
-          <a href="#" target="_blank"><img class="footer__logo-image" src="./images/footer__partner4.png"
-              alt="Лого А поговорить А?"></a>
+          <a href="https://www.youtube.com/channel/UCp2J7GRxQ36QLqW4ReLLt5g" target="_blank"><img
+              class="footer__logo-image" src="./images/footer__partner4.png" alt="Лого А поговорить А?"></a>
         </li>
       </ul>
     </div>
@@ -386,13 +396,16 @@
       </div>
       <div class="footer__copyrights">
         <img class="footer__shishki-logo" src="./images/footer__shishki_logo.svg" alt="Лого shishki.collective">
-        <p class="footer__copyright-text">дизайн сайта - <a class="footer__copyright" href="#"
+        <p class="footer__copyright-text">дизайн сайта - <a class="footer__copyright" href="https://ru.shishki.co/"
             target="_blank">shishki.collective</a></p>
         <p class="footer__copyright-text footer__copyright-text_type_wide">верстка и разработка&nbsp;-студенты <a
-            class="footer__copyright" href="#" target="_blank">Яндекс.Практикума</a></p>
+            class="footer__copyright" href="https://practicum.yandex.ru/" target="_blank">Яндекс.Практикума</a></p>
       </div>
     </div>
+
+    <!-- ******************** Мобильная версия подвала **********************-->
     <div class="footer__mobile">
+      <div class="logo logo_place_footer logo_place_footer-mobile"></div>
       <p class="footer__address-first">Площадка «8/3»</p>
       <p class="footer__address-second">Москва, ул.Казакова, 8, стр. 3 Метро «Курская»</p>
       <ul class="footer__nav-links-first-grid">
@@ -454,32 +467,33 @@
       </ul>
       <ul class="footer__partners-logos-mobile">
         <li class="footer__partners-logo">
-          <a href="#" target="_blank"><img class="footer__logo-image" src="./images/footer__partner1.png"
-              alt="Лого фонда Михаила Прохорова"></a>
+          <a href="http://prokhorovfund.ru/fund/structure/executive/moscow/" target="_blank"><img
+              class="footer__logo-image" src="./images/footer__partner1.png" alt="Лого фонда Михаила Прохорова"></a>
           <p class="footer__text">Генеральный партнер</p>
         </li>
         <li class="footer__partners-logo">
-          <a href="#" target="_blank"><img class="footer__logo-image" src="./images/footer__partner2.png"
-              alt="Лого MOSBREW"></a>
+          <a href="https://www.brewhouse.pro/" target="_blank"><img class="footer__logo-image"
+              src="./images/footer__partner2.png" alt="Лого MOSBREW"></a>
         </li>
         <li class="footer__partners-logo">
-          <a href="#" target="_blank"><img class="footer__logo-image" src="./images/footer__partner3.png"
+          <a href="http://sbtg.ru/" target="_blank"><img class="footer__logo-image" src="./images/footer__partner3.png"
               alt="Лого SBTG.ru"></a>
           <p class="footer__text">Онлайн-трансляции</p>
         </li>
         <li class="footer__partners-logo">
-          <a href="#" target="_blank"><img class="footer__logo-image" src="./images/footer__partner4.png"
-              alt="Лого А поговорить А?"></a>
+          <a href="https://www.youtube.com/channel/UCp2J7GRxQ36QLqW4ReLLt5g/videos" target="_blank"><img
+              class="footer__logo-image" src="./images/footer__partner4.png" alt="Лого А поговорить А?"></a>
         </li>
       </ul>
       <p class="footer__copyright">&#169; Любимовка, 2021</p>
       <a class="footer__copyright" href="#" target="_blank">Политика конфиденциальности</a>
       <div class="footer__copyrights footer__copyrights_version_mobile">
         <img class="footer__shishki-logo" src="./images/footer__shishki_logo.svg" alt="Лого shishki.collective">
-        <a class="footer__copyright footer__copyright_place_side" href="#" target="_blank">дизайн сайта -
+        <a class="footer__copyright footer__copyright_place_side" href="https://ru.shishki.co/" target="_blank">дизайн
+          сайта -
           shishki.collective</a>
       </div>
-      <a class="footer__copyright" href="#" target="_blank">верстка и разработка - студенты
+      <a class="footer__copyright" href="https://practicum.yandex.ru/" target="_blank">верстка и разработка - студенты
         Яндекс.Практикума</a>
     </div>
   </footer>
@@ -488,7 +502,7 @@
       <div class="reviews__card card">
         <img class="card__image">
         <p class="card__text"></p>
-        <a class="card__readmore">
+        <button class="card__readmore" onclick="return false">
           <svg class="card__readmore-arrow" width="25" height="25" viewBox="0 0 25 25" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <path class="card__readmore-arrow" fill-rule="evenodd" clip-rule="evenodd"
@@ -496,8 +510,9 @@
               fill="#242424" />
           </svg>
           Читать полностью
-        </a>
+        </button>
       </div>
+
     </div>
   </template>
   <template id="slideFeedback-template">

@@ -1,5 +1,9 @@
 .links__buttons {
+  position: relative;
+  z-index: 1;
   display: flex;
+  flex-direction: row;
+  justify-content: start;
   margin: -95px 0 0 583px;
 }
 

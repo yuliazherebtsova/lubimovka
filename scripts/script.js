@@ -1,26 +1,3 @@
-/*
-TODO Чек-лист [V]
-* Общие замечания:
-// Заполните readme.md более полно с описанием проекта.
-// Также нужно выложить проект на gh-pages и дать на него ссылку в readme
-* Есть ошибки валидации
-* В консоли ест ошибки из-за ненайденных файлов http://joxi.ru/xAeZQZacMpgpVr
-* Не подключились изображения в рецензиях http://joxi.ru/E2p7O78tv9aBnm
-* У меню в футере нет стилей по наведению и стилей для активного пункта меню.
-* Так как это кнопки, то при нажатии должно что-то происходить: http://joxi.ru/BA0qXqDs1JPwnr
-* Есть горизонтальная прокрутка на ширине 320-430рх, 770-890рх, 900-1135рх
-* На ширине 320рх внешний вид блока links не соответствует макету http://joxi.ru/Vm6j8jWt3DjXMm
-* На ширине 320рх внешний вид шапки не соответствует макету
-*(кнопка "Проекты" должна переместиться в хэдер, текст и кнопка "Билеты" должны быть выровнены правее)
-* http://joxi.ru/V2V0P0ViBxKN3r
-* На ширине 320рх фон блока descriptio-block по макету другой. Также в этом блоке неправильные отступы.
-* На ширине 320рх фотографии в блоке с фотографиями располагаются по две в ряд.
-* При указании шрифта указывайте резервный шрифт и тип засечек.
-
-* Можно лучше:
-* ссылкам в футере хорошо было бы задать стили по наведению.
-*/
-
 const mobileMenu = document.querySelector(".header__mobile");
 const menuBtn = document.querySelector(".header__burger");
 
@@ -82,7 +59,6 @@ const swiperReviews = new Swiper('.reviews__container', {
   slideToClickedSlide: true,
   // Переход по слайдам путем клика на следующий
 
-
   simulateTouch: true,
   // Включение / отключение перетаскивания на десктопе
   // (также включается возможность переключиться на другой слайд по клику на него)
@@ -104,9 +80,11 @@ const swiperReviews = new Swiper('.reviews__container', {
       slidesPerGroup: 1,
     }
   },
+
+  autoHeight: false,
+  // Автовысота по размеру слайда
 });
 
-// Инициализируем Swiper для блока Feedback
 const swiperFeedback = new Swiper('.feedback__container', {
   // Инициализируем Swiper для блока Feedback
   wrapperClass: 'feedback__wrapper',
@@ -147,7 +125,7 @@ const swiperFeedback = new Swiper('.feedback__container', {
 });
 
 function createCardReviews(cardData) {
-  // функция создания нового слайда в блоке Feedback
+  // функция создания нового слайда в блоке Reviews
   const cardTemplate = document.querySelector('#slideReviews-template').content;
   const cardElement = cardTemplate.querySelector('.reviews__slide').cloneNode(true);
   // создаем слайд в блоке Reviews по шаблону
@@ -193,9 +171,12 @@ function loadInitialCardsFeedback(cards) {
   });
 };
 
-loadInitialCardsFeedback(initialCardsFeedback);
 loadInitialCardsReviews(initialCardsReviews);
-swiperFeedback.slideNext(0);
-// Начинать с первого слайда после загрузки из массива
+loadInitialCardsFeedback(initialCardsFeedback);
 swiperReviews.slideTo(2);
 // Начинать с первого слайда после загрузки из массива
+swiperFeedback.slideNext(0);
+// Начинать с первого слайда после загрузки из массива
+
+swiperReviews.params.autoHeight = true;
+// Включаем параметр автовысоты после загрузки начальных слайдов

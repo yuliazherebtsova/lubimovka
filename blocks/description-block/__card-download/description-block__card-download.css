@@ -16,13 +16,20 @@
   border-top: 1px solid #242424;
   background: linear-gradient(to left, transparent 50%, #242424 50%) right;
   background-size: 200%;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.description-block__card-download:hover {
+  background-position: left;
+  color: #ECEBE8;
   transition: 0.8s;
 }
 
-
-.description-block__card-download:hover {
-  background-color: #242424;
-  color: #fff;
-  cursor: pointer;
-  background-position: left;
+.description-block__card-download:hover .description-block__arrow {
+  background-position: right;
+  fill: #ECEBE8;
+  transition: 1s cubic-bezier(.72, .20, .16, 1);
+  -webkit-transition: all 1s cubic-bezier(.72, .20, .16, 1);
+  -moz-transition: all 1s cubic-bezier(.72, .20, .16, 1);
 }

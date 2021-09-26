@@ -1,0 +1,9 @@
+.header__plus-decoration {
+  max-width: 25px;
+}
+
+@media screen and (max-width: 1080px) {
+  .header__plus-decoration {
+    max-width: 20px;
+  }
+}
