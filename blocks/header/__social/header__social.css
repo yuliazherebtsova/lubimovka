@@ -1,20 +1,15 @@
 .header__social {
   max-width: 257px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   border-left: 1px solid #232323;
   border-right: 1px solid #232323;
   height: 100%;
   box-sizing: border-box;
-  gap: 5.4px;
   padding: 0 16px 0 18px;
 }
 
 @media screen and (max-width: 1439px) {
   .header__social {
     padding: 0;
-    gap: 0;
   }
 }
 

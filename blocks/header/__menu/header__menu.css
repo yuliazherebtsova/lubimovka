@@ -1,17 +1,13 @@
 .header__menu {
-  display: flex;
-  justify-content: space-between;
   max-width: 946px;
   padding-left: 35px;
   padding-right: 31px;
-  gap: 28px;
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 1439px) {
   .header__menu {
     flex-grow: 1;
-    gap: 12px;
     padding-left: 13px;
     padding-right: 9px;
   }
@@ -19,7 +15,6 @@
 
 @media screen and (max-width: 1279px) {
   .header__menu {
-    gap: 5px;
     padding-left: 8px;
     width: auto;
   }

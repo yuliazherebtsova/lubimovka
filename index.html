@@ -27,23 +27,28 @@
       </button>
     </div>
     <nav class="header__menu">
-      <a href="#" class="header__link" target="_blank">Афиша</a>
-      <a href="#" class="header__link" target="_blank">Библиотека</a>
-      <a href="#" class="header__link" target="_blank">Проекты</a>
-      <a href="#" class="header__link" target="_blank">История</a>
-      <a href="#" class="header__link" target="_blank">Блог</a>
-      <a href="#" class="header__link" target="_blank">Новости</a>
-      <a href="#" class="header__link" target="_blank">О фестивале</a>
-      <a href="#" class="header__link" target="_blank">Контакты</a>
+      <ul class="header__menu-decor">
+        <li><a href="#" class="header__link" target="_blank">Афиша</a></li>
+        <li><a href="#" class="header__link" target="_blank">Библиотека</a></li>
+        <li><a href="#" class="header__link" target="_blank">Проекты</a></li>
+        <li><a href="#" class="header__link" target="_blank">История</a></li>
+        <li><a href="#" class="header__link" target="_blank">Блог</a></li>
+        <li><a href="#" class="header__link" target="_blank">Новости</a></li>
+        <li><a href="#" class="header__link" target="_blank">О фестивале</a></li>
+        <li><a href="#" class="header__link" target="_blank">Контакты</a></li>
+      </ul>
     </nav>
-    <div class="header__social">
-      <a href="https://www.facebook.com/festival.lubimovka/" class="header__social-link" target="_blank">fb</a>
-      <a href="https://www.instagram.com/lubimovka/" class="header__social-link" target="_blank">inst</a>
-      <a href="https://www.youtube.com/channel/UCDZ1HTzBVBxm_vw6tV7C3lg" class="header__social-link"
-        target="_blank">ytube</a>
-      <a href="https://t.me/lubimovka" class="header__social-link" target="_blank">tlgrm</a>
-      <a href="https://vk.com/festival.lubimovka" class="header__social-link" target="_blank">vk</a>
-    </div>
+    <nav class="header__social">
+      <ul class="header__social-decor">
+        <li><a href="https://www.facebook.com/festival.lubimovka/" class="header__social-link" target="_blank">fb</a>
+        </li>
+        <li><a href="https://www.instagram.com/lubimovka/" class="header__social-link" target="_blank">inst</a></li>
+        <li><a href="https://www.youtube.com/channel/UCDZ1HTzBVBxm_vw6tV7C3lg" class="header__social-link"
+            target="_blank">ytube</a></li>
+        <li><a href="https://t.me/lubimovka" class="header__social-link" target="_blank">tlgrm</a></li>
+        <li><a href="https://vk.com/festival.lubimovka" class="header__social-link" target="_blank">vk</a></li>
+      </ul>
+    </nav>
     <button type="button" class="header__support-button header__support-button_hidden">
       <svg class="header__plus-decoration" width="25" height="25" viewBox="0 0 25 25" fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -53,18 +58,20 @@
       поддержать
     </button>
     <img src="./images/burger.svg" class="header__burger" alt="меню">
-    <div class="header__mobile">
+    <nav class="header__mobile">
       <nav class="header__layout">
-        <a href="#" class="header__link" target="_blank">Афиша</a>
-        <a href="#" class="header__link" target="_blank">Библиотека</a>
-        <a href="#" class="header__link" target="_blank">Проекты</a>
-        <a href="#" class="header__link" target="_blank">История</a>
-        <a href="#" class="header__link" target="_blank">Блог</a>
-        <a href="#" class="header__link" target="_blank">Новости</a>
-        <a href="#" class="header__link" target="_blank">О фестивале</a>
-        <a href="#" class="header__link" target="_blank">Контакты</a>
+        <ul class="header__layout-decor">
+          <li class="header__link"><a href="#" class="header__link-mob-text" target="_blank">Афиша</a></li>
+          <li class="header__link"><a href="#" class="header__link-mob-text" target="_blank">Библиотека</a></li>
+          <li class="header__link"><a href="#" class="header__link-mob-text" target="_blank">Проекты</a></li>
+          <li class="header__link"><a href="#" class="header__link-mob-text" target="_blank">История</a></li>
+          <li class="header__link"><a href="#" class="header__link-mob-text" target="_blank">Блог</a></li>
+          <li class="header__link"><a href="#" class="header__link-mob-text" target="_blank">Новости</a></li>
+          <li class="header__link"><a href="#" class="header__link-mob-text" target="_blank">О фестивале</a></li>
+          <li class="header__link"><a href="#" class="header__link-mob-text" target="_blank">Контакты</a></li>
+        </ul>
       </nav>
-    </div>
+    </nav>
   </header>
   <main class="content">
     <section class="main-info content__section">
@@ -495,7 +502,7 @@
       <div class="reviews__card card">
         <img class="card__image">
         <p class="card__text"></p>
-        <a class="card__readmore">
+        <button class="card__readmore" onclick="return false">
           <svg class="card__readmore-arrow" width="25" height="25" viewBox="0 0 25 25" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <path class="card__readmore-arrow" fill-rule="evenodd" clip-rule="evenodd"
@@ -503,7 +510,7 @@
               fill="#242424" />
           </svg>
           Читать полностью
-        </a>
+        </button>
       </div>
 
     </div>
