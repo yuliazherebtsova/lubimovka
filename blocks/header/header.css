@@ -1,16 +1,26 @@
 .header {
-  width: 100%;
+  max-width: 1440px;
   display: flex;
   align-items: center;
   background-color: #ecebe8;
   height: 62px;
   border-bottom: 1px solid #232323;
   box-sizing: border-box;
-  justify-content: space-between;
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 1439px) {
+  .header {
+    justify-content: space-evenly;
+    /*padding-left: 0;*/
+  }
 }
 
 @media screen and (max-width: 900px) {
   .header {
     border: none;
+    /*justify-content: space-evenly;*/
+    justify-content: space-between;
+    padding-left: 24px;
   }
 }

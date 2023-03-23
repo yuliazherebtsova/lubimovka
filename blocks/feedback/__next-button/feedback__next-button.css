@@ -1,27 +1,73 @@
 .feedback__next-button {
-  margin: 0 10px;
+  min-width: 50px;
+  min-height: 50px;
   padding: 0;
-  width: 52px;
-  height: 52px;
   position: relative;
-  cursor: pointer;
   border: none;
-  background: transparent;
+  border-radius: 50%;
+  background-color: transparent;
+  background-image: url(../../../images/links__arrow.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
 
-.feedback__next-button:after {
-  content: '';
+.feedback__next-button:before {
   position: absolute;
   top: 0;
-  left: 26px;
-  width: 25px;
-  height: 50px;
+  left: 25px;
+  display: block;
+  content: '';
   border: 1px solid #242424;
   border-left: none;
-  border-radius: 0 26px 26px 0;
+  border-radius: 50px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  background-color: transparent;
+  width: 24px;
+  height: 48px;
 }
 
-.feedback__next-button:hover:after {
-  display: none;
+.feedback__next-button::after {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  display: block;
+  content: '';
+  border: 1px solid #242424;
+  border-left: none;
+  border-radius: 50px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  background-color: transparent;
+  width: 24px;
+  height: 48px;
+  transform-origin: center left;
 }
 
+.feedback__next-button:hover {
+  background-color: #dbdbdb;
+  filter: invert(100%);
+  transition: filter 0.18s 0.1s ease-out, background-color 0.18s 0.1s ease-out;
+}
+
+.feedback__next-button:hover::before {
+  filter: invert(100%);
+  transition: filter 0.18s 0.1s ease-out;
+}
+
+.feedback__next-button:hover::after {
+  transform: rotate(180deg);
+  filter: invert(100%);
+  transition: transform 0.18s, filter 0.18s 0.1s ease-out;
+}
+
+.feedback__next-button:active::before {
+  animation: reviews-button-animation 0.3s forwards;
+}
+
+@media screen and (max-width: 1024px) {
+  .feedback__next-button:active::before {
+    animation: none;
+  }
+}

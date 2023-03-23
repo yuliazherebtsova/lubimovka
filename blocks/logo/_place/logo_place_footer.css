@@ -1,0 +1,15 @@
+.logo_place_footer {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  margin-top: 42px;
+  margin-left: 32px;
+  width: 93px;
+  height: 80px;
+  background-image: url(../../../images/logo_footer.svg);
+}
+
+@media screen and (max-width: 900px) {
+  .logo_place_footer{
+    display: none;
+  }
+}

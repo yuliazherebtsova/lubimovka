@@ -12,37 +12,48 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  padding: 0;
-  width: 164px;
+  justify-content: center;
+  /*gap: 6px;*/
+  padding-left: 23px;
+  padding-right: 20px;
   height: 62px;
   background: linear-gradient(to left, transparent 50%, #242424 50%) right;
-  background-size: 200%;
+  background-size: 300%;
+  transition: 0.8s;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.header__support-button:hover {
+  background-position: left;
+  color: #ECEBE8;
   transition: 0.8s;
 }
 
-.header__support-button:hover{
-  background-position: left;
-  color: #ECEBE8;
+.header__support-button:hover .header__plus {
+  background-position: right;
   fill: #ECEBE8;
+  transition: 0.4s;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1439px) {
   .header__support-button {
-    font-size: 12px;
+    flex-basis: 225px;
+    padding-left: 0;
+    padding-right: 0;
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .header__support-button {
+    font-size: 10px;
+    flex-basis: 200px;
   }
 }
 
 @media screen and (max-width: 900px) {
   .header__support-button {
-    font-size: 25px;
     line-height: 1;
-    padding-bottom: 10px;
-    height: auto;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .header__support-button {
-    font-size: 17px;
   }
 }
